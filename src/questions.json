@@ -56,7 +56,7 @@
       "Atonik"
     ]
   },
-  { "type": "checkbox", "q": " İzlemede Özellik", "options": ["ID", "Down"], "inline": true, },
+  { "type": "checkbox", "q": " İzlemede Özellik", "options": ["ID", "Down"], "inline": true},
   { "type": "text", "q": " İzlemede Özellik Ekstra" },
   
   {"type": "title", "q": " III. KLİNİK BİLGİLER", "size": 3, "center": true, "underlined": true},
