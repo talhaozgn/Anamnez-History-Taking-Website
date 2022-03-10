@@ -458,6 +458,15 @@
     "inline": true,
     "blockSize": 6
   },
+  
+  {
+    "type": "title",
+    "q": " İLAÇ 1 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  
   {
     "type": "dropdown",
     "q": " İlaç 1 ",
@@ -513,6 +522,14 @@
   },
   { "type": "text", "q": " İlaç 1 Açıklama", "inline": true },
 
+    {
+    "type": "title",
+    "q": " İLAÇ 2 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  
   {
     "type": "dropdown",
     "q": " İlaç 2 ",
@@ -567,6 +584,15 @@
     ]
   },
   { "type": "text", "q": " İlaç 2 Açıklama", "inline": true },
+  
+    {
+    "type": "title",
+    "q": " İLAÇ 3 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  
   {
     "type": "dropdown",
     "q": " İlaç 3 ",
@@ -621,6 +647,14 @@
     ]
   },
   { "type": "text", "q": " İlaç 3 Açıklama", "inline": true },
+    {
+    "type": "title",
+    "q": " İLAÇ 4 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  
   {
     "type": "dropdown",
     "q": " İlaç 4 ",
@@ -675,6 +709,14 @@
     ]
   },
   { "type": "text", "q": " İlaç 4 Açıklama", "inline": true },
+   {
+    "type": "title",
+    "q": " İLAÇ 5 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  
   {
     "type": "dropdown",
     "q": " İlaç 5 ",
@@ -729,6 +771,13 @@
     ]
   },
   { "type": "text", "q": " İlaç 5 Açıklama", "inline": true },
+    {
+    "type": "title",
+    "q": " İLAÇ 6 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
   {
     "type": "dropdown",
     "q": " İlaç 6 ",
@@ -783,6 +832,13 @@
     ]
   },
   { "type": "text", "q": " İlaç 6 Açıklama", "inline": true },
+    {
+    "type": "title",
+    "q": " İLAÇ 7 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
   {
     "type": "dropdown",
     "q": " İlaç 7 ",
@@ -837,6 +893,13 @@
     ]
   },
   { "type": "text", "q": " İlaç 7 Açıklama", "inline": true },
+   {
+    "type": "title",
+    "q": " ÖNCEDEN KULLANDIĞI İLAÇ 1 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
   {
     "type": "dropdown",
     "q": " Önceden Kullandığı İlaç 1 ",
@@ -899,7 +962,13 @@
     "q": " Önceden Kullandığı İlaç 1 Açıklama",
     "inline": true
   },
-
+{
+    "type": "title",
+    "q": " ÖNCEDEN KULLANDIĞI İLAÇ 2 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
   {
     "type": "dropdown",
     "q": " Önceden Kullandığı İlaç 2 ",
@@ -961,6 +1030,13 @@
     "type": "text",
     "q": " Önceden Kullandığı İlaç 2 Açıklama",
     "inline": true
+  },
+ {
+    "type": "title",
+    "q": " ÖNCEDEN KULLANDIĞI İLAÇ 3 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
   },
   {
     "type": "dropdown",
@@ -1025,6 +1101,13 @@
     "inline": true
   },
   {
+    "type": "title",
+    "q": " ÖNCEDEN KULLANDIĞI İLAÇ 4 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  {
     "type": "dropdown",
     "q": " Önceden Kullandığı İlaç 4 ",
     "options": [
@@ -1085,6 +1168,13 @@
     "type": "text",
     "q": " Önceden Kullandığı İlaç 4 Açıklama",
     "inline": true
+  },
+  {
+    "type": "title",
+    "q": " ÖNCEDEN KULLANDIĞI İLAÇ 5 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
   },
   {
     "type": "dropdown",
@@ -1149,6 +1239,13 @@
     "inline": true
   },
   {
+    "type": "title",
+    "q": " ÖNCEDEN KULLANDIĞI İLAÇ 6 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  {
     "type": "dropdown",
     "q": " Önceden Kullandığı İlaç 6 ",
     "options": [
@@ -1209,6 +1306,13 @@
     "type": "text",
     "q": " Önceden Kullandığı İlaç 6 Açıklama",
     "inline": true
+  },
+ {
+    "type": "title",
+    "q": " ÖNCEDEN KULLANDIĞI İLAÇ 7 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
   },
   {
     "type": "dropdown",
