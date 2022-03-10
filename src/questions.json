@@ -1078,7 +1078,7 @@
   {
     "type": "radiobutton",
     "q": " Cerrahi Adayı",
-    "options": ["Evet", "Hayır"], "inline": true,
+    "options": ["Evet", "Hayır"], "inline": true
   },
   { "type": "text", "q": " Cerrahi Adayı Açıklama" }
 ]
