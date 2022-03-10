@@ -66,7 +66,7 @@
     "type": "radiobutton",
     "q": " Aura ",
     "options": ["Var", "Yok"],
-    "inline": true , "blockSize": 3 
+    "inline": true , "blockSize": 4 
   },
 
 
@@ -75,25 +75,25 @@
     "type": "radiobutton",
     "q": " Nöbet uyaranı",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true, "blockSize": 4 
   },
   {
     "type": "radiobutton",
     "q": " Jeneralize nöbet",
     "options": ["Var", "Yok"],
-    "inline": true
+    "inline": true, "blockSize": 4 
   },
   {
     "type": "radiobutton",
     "q": " Myokloni uykuda ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true, "blockSize": 4 
   },
   {
     "type": "radiobutton",
     "q": " Myokloni  uyanıkken",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true, "blockSize": 4 
   },
   {
     "type": "radiobutton",
@@ -105,49 +105,49 @@
     "type": "radiobutton",
     "q": " Güneş hassasiyeti ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true, "blockSize": 4 
   },
   {
     "type": "radiobutton",
     "q": " Pattern hassasiyeti  ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true, "blockSize": 4 
   },
   {
     "type": "radiobutton",
     "q": " Yanıp sönen ışık  hassasiyeti  ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true, "blockSize": 4 
   },
   {
     "type": "radiobutton",
     "q": " Postiktal baş ağrısı ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true, "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Postiktal todd paralizisi ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true, "blockSize": 4 
   },
   {
     "type": "radiobutton",
     "q": " Status epileptikus  ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true, "blockSize": 4 
   },
   {
     "type": "radiobutton",
     "q": " Remisyon süresi ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true, "blockSize": 4 
   },
   {
     "type": "radiobutton",
     "q": " Katamenial ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true, "blockSize": 4 
   },
   { "type": "text", "q": " Yıllar içinde nöbet değişikliği " },
   { "type": "text", "q": " En son nöbet tarihi ", "inline": true,"blockSize": 4  },
