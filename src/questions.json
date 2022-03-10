@@ -416,24 +416,26 @@
     "q": " Kafa Tramvası ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 3
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " SSS hastalığı",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 3
+    "blockSize": 4
   },
-  { "type": "text", "q": " Başka Hastalık ", "inline": true, "blockSize": 3 },
+  
   {
     "type": "radiobutton",
     "q": " Ame ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 3
+    "blockSize": 4
   },
 
+  { "type": "text", "q": " Başka Hastalık ", "inline": true, "blockSize": 3 },
+  
   {
     "type": "title",
     "q": " B-İLAÇ VE TEDAVİ ÖYKÜSÜ: ",
