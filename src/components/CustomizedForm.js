@@ -148,6 +148,7 @@ export default function CustomizedForm() {
           k={q.q}
           options={q.options}
           handleChange={handleChange}
+          inline={q.inline}
         />
       );
     } else if (q.type === "checkbox") {
@@ -182,7 +183,7 @@ export default function CustomizedForm() {
     return (
       <div
         key={index}
-        className={"renderQuestion p-2 d-inline-block " + colSize}
+        className={"renderQuestion p-3 d-inline-block " + colSize}
       >
         {renderInput(q)}
       </div>

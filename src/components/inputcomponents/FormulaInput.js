@@ -5,10 +5,10 @@ export default function FormulaInput({ k, v, inline }) {
     <React.Fragment>
       {inline ? (
         <div className="row">
-          <div className="col-2">
+          <div className="col-4">
             <div className="h6">{k}</div>
           </div>
-          <div className="col-10">
+          <div className="col-8">
             <input
               type="text"
               className="form-control"

@@ -6,42 +6,78 @@
     "center": true,
     "underlined": true
   },
-  
-  {"type": "title", "q": " KOÇ ÜNİVERSİTESİ", "size": 1, "center": true, "underlined": true},
-{"type": "title", "q": " EPİLEPSİ POLİKLİNİĞİ ", "size": 1, "center": true, "underlined": true},
+
+  {
+    "type": "title",
+    "q": " KOÇ ÜNİVERSİTESİ",
+    "size": 1,
+    "center": true,
+    "underlined": true
+  },
+  {
+    "type": "title",
+    "q": " EPİLEPSİ POLİKLİNİĞİ ",
+    "size": 1,
+    "center": true,
+    "underlined": true
+  },
 
   { "type": "text", "q": "Tarih", "inline": true, "blockSize": 3 },
   { "type": "text", "q": "T.C. No", "inline": true, "blockSize": 5 },
   { "type": "text", "q": "Prot. No", "inline": true, "blockSize": 4 },
-  
-  {"type": "title", "q": " I. KİMLİK BİLGİLERİ", "size": 3, "center": true, "underlined": true},
-  
+
+  {
+    "type": "title",
+    "q": " I. KİMLİK BİLGİLERİ",
+    "size": 3,
+    "center": true,
+    "underlined": true
+  },
+
   { "type": "text", "q": "Ad Soyad", "inline": true, "blockSize": 6 },
-  { "type": "text", "q": "Yaş", "inline": true , "blockSize": 3  },
+  { "type": "text", "q": "Yaş", "inline": true, "blockSize": 3 },
   {
     "type": "radiobutton",
     "q": "Cinsiyet",
     "options": ["Erkek", "Kadın"],
-    "inline": true,  "blockSize": 3 
+    "inline": true,
+    "blockSize": 3
   },
   { "type": "text", "q": "Doğum Tarihi", "inline": true, "blockSize": 4 },
-  { "type": "text", "q": " Doğum Yeri ", "inline": true,  "blockSize": 4 },
-  { "type": "text", "q": " Oturduğu yer ", "inline": true ,  "blockSize": 4},
-  { "type": "text", "q": " Şimdiki Uğraşı ", "inline": true,  "blockSize": 4 },
-  { "type": "text", "q": " Eğitim Durumu ", "inline": true ,  "blockSize": 4},
-  { "type": "radiobutton", "q": "Özel Sağlık Sigortası", "options": ["var", "yok"], "inline": true , "blockSize": 4},
-  { "type": "text", "q": " Medeni Durumu ", "inline": true , "blockSize": 4},
+  { "type": "text", "q": " Doğum Yeri ", "inline": true, "blockSize": 4 },
+  { "type": "text", "q": " Oturduğu yer ", "inline": true, "blockSize": 4 },
+  { "type": "text", "q": " Şimdiki Uğraşı ", "inline": true, "blockSize": 4 },
+  { "type": "text", "q": " Eğitim Durumu ", "inline": true, "blockSize": 4 },
+  {
+    "type": "radiobutton",
+    "q": "Özel Sağlık Sigortası",
+    "options": ["var", "yok"],
+    "inline": true,
+    "blockSize": 4
+  },
+  { "type": "text", "q": " Medeni Durumu ", "inline": true, "blockSize": 4 },
   { "type": "text", "q": " Baba adı ", "inline": true, "blockSize": 4 },
-  { "type": "text", "q": " Ana adı ", "inline": true , "blockSize": 4},
+  { "type": "text", "q": " Ana adı ", "inline": true, "blockSize": 4 },
   { "type": "text", "q": " Tel  1", "inline": true, "blockSize": 6 },
   { "type": "text", "q": " Tel  2", "inline": true, "blockSize": 6 },
   { "type": "text", "q": " Adres/posta kodu " },
   { "type": "text", "q": " Gönderen", "inline": true, "blockSize": 6 },
-  { "type": "text", "q": " Öyküyü alan doktor ", "inline": true, "blockSize": 6 },
-  {"type": "title", "q": " II. ÖZET BİLGİLER ", "size": 3, "center": true, "underlined": true},
-  { "type": "text", "q": " Tanı " , "inline": true },
-  { "type": "text", "q": " Sendrom Tanısı", "inline": true, "blockSize": 6  },
-  { "type": "text", "q": " Etiyolojik Tanı ", "inline": true, "blockSize": 6  },
+  {
+    "type": "text",
+    "q": " Öyküyü alan doktor ",
+    "inline": true,
+    "blockSize": 6
+  },
+  {
+    "type": "title",
+    "q": " II. ÖZET BİLGİLER ",
+    "size": 3,
+    "center": true,
+    "underlined": true
+  },
+  { "type": "text", "q": " Tanı ", "inline": true },
+  { "type": "text", "q": " Sendrom Tanısı", "inline": true, "blockSize": 6 },
+  { "type": "text", "q": " Etiyolojik Tanı ", "inline": true, "blockSize": 6 },
   {
     "type": "checkbox",
     "q": "Nöbet Tipleri",
@@ -56,117 +92,167 @@
       "Atonik"
     ]
   },
-  { "type": "checkbox", "q": " İzlemede Özellik", "options": ["ID", "Down"], "inline": true},
+  {
+    "type": "checkbox",
+    "q": " İzlemede Özellik",
+    "options": ["ID", "Down"],
+    "inline": true
+  },
   { "type": "text", "q": " İzlemede Özellik Ekstra" },
-  
-  {"type": "title", "q": " III. KLİNİK BİLGİLER", "size": 3, "center": true, "underlined": true},
-{"type": "title", "q": " A-ÖYKÜ: ", "size": 5, "center": true, "underlined": true},
-  
+
+  {
+    "type": "title",
+    "q": " III. KLİNİK BİLGİLER",
+    "size": 3,
+    "center": true,
+    "underlined": true
+  },
+  {
+    "type": "title",
+    "q": " A-ÖYKÜ: ",
+    "size": 5,
+    "center": true,
+    "underlined": true
+  },
+
   {
     "type": "radiobutton",
     "q": " Aura ",
     "options": ["Var", "Yok"],
-    "inline": true , "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
-
-
 
   {
     "type": "radiobutton",
     "q": " Nöbet uyaranı",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Jeneralize nöbet",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Myokloni uykuda ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Myokloni  uyanıkken",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Absans ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 3 
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Güneş hassasiyeti ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Pattern hassasiyeti  ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Yanıp sönen ışık  hassasiyeti  ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Postiktal baş ağrısı ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Postiktal todd paralizisi ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Status epileptikus  ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Remisyon süresi ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Katamenial ",
     "options": ["Var", "Yok"],
-    "inline": true, "blockSize": 4 
+    "inline": true,
+    "blockSize": 4
   },
   { "type": "text", "q": " Yıllar içinde nöbet değişikliği " },
-  { "type": "text", "q": " En son nöbet tarihi ", "inline": true,"blockSize": 4  },
-  { "type": "text", "q": " Yatma ve uyanma saatleri " , "inline": true,"blockSize": 4 },
-  { "type": "text", "q": "Jeneralize Nöbet sıklığı (Ayda)", "inline": true,"blockSize": 4  },
+  {
+    "type": "text",
+    "q": " En son nöbet tarihi ",
+    "inline": true,
+    "blockSize": 4
+  },
+  {
+    "type": "text",
+    "q": " Yatma ve uyanma saatleri ",
+    "inline": true,
+    "blockSize": 4
+  },
+  {
+    "type": "text",
+    "q": "Jeneralize Nöbet sıklığı (Ayda)",
+    "inline": true,
+    "blockSize": 4
+  },
   {
     "type": "radiobutton",
     "q": " Uykuya dalma sorunu ",
-    "options": ["Var", "Yok"], "inline": true,"blockSize": 4  
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Sabah erken kalkma ",
-    "options": ["Var", "Yok"], "inline": true,"blockSize": 4  
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Uykuyu devam ettirememe",
-    "options": ["Var", "Yok"], "inline": true,"blockSize": 4  
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "text",
@@ -199,60 +285,177 @@
     "inline": true,
     "blockSize": 4
   },
-  
-  {"type": "title", "q": " IV. SOSYAL DURUM ", "size": 3, "center": true, "underlined": true},
-  
+
+  {
+    "type": "title",
+    "q": " IV. SOSYAL DURUM ",
+    "size": 3,
+    "center": true,
+    "underlined": true
+  },
+
   {
     "type": "radiobutton",
     "q": " Sürücü Ehliyeti ",
-    "options": ["Var", "Yok"] , "inline": true, "blockSize": 4
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 4
   },
-  
-  { "type": "radiobutton", "q": " Alerji ", "options": ["Var", "Yok"], "inline": true, "blockSize": 4 },
-{ "type": "radiobutton", "q": " Alkol ", "options": ["Var", "Yok"], "inline": true, "blockSize": 4 },
-{ "type": "radiobutton", "q": " Sigara ", "options": ["Var", "Yok"], "inline": true, "blockSize": 4 },
-{ "type": "radiobutton", "q": " Madde kullanımı ", "options": ["Var", "Yok"], "inline": true, "blockSize": 4 },
-{ "type": "radiobutton", "q": " Nargile", "options": ["Var", "Yok"] , "inline": true, "blockSize": 4},
 
+  {
+    "type": "radiobutton",
+    "q": " Alerji ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 4
+  },
+  {
+    "type": "radiobutton",
+    "q": " Alkol ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 4
+  },
+  {
+    "type": "radiobutton",
+    "q": " Sigara ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 4
+  },
+  {
+    "type": "radiobutton",
+    "q": " Madde kullanımı ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 4
+  },
+  {
+    "type": "radiobutton",
+    "q": " Nargile",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 4
+  },
 
-  
-  {"type": "title", "q": " IV. ÖZGEÇMİŞ ", "size": 3, "center": true, "underlined": true}, 
-  
-  { "type": "radiobutton", "q": "Doğum ", "options": ["NSVY", "Sezeryan"], "inline": true, "blockSize": 6 },
-  { "type": "text", "q": "Doğum ile ilgili ekstra ", "inline": true,  "blockSize": 6},
+  {
+    "type": "title",
+    "q": " IV. ÖZGEÇMİŞ ",
+    "size": 3,
+    "center": true,
+    "underlined": true
+  },
+
+  {
+    "type": "radiobutton",
+    "q": "Doğum ",
+    "options": ["NSVY", "Sezeryan"],
+    "inline": true,
+    "blockSize": 6
+  },
+  {
+    "type": "text",
+    "q": "Doğum ile ilgili ekstra ",
+    "inline": true,
+    "blockSize": 6
+  },
   {
     "type": "radiobutton",
     "q": " Motor Gelişim",
-    "options": ["Sorunlu", "Sorunsuz"] , "inline": true,  "blockSize": 6
+    "options": ["Sorunlu", "Sorunsuz"],
+    "inline": true,
+    "blockSize": 6
   },
-  { "type": "text", "q": " Motor Gelişim Açıklama " , "inline": true,  "blockSize": 6},
+  {
+    "type": "text",
+    "q": " Motor Gelişim Açıklama ",
+    "inline": true,
+    "blockSize": 6
+  },
   {
     "type": "radiobutton",
     "q": " Mental Gelişim",
-    "options": ["Sorunlu", "Sorunsuz"] , "inline": true,  "blockSize": 6
+    "options": ["Sorunlu", "Sorunsuz"],
+    "inline": true,
+    "blockSize": 6
   },
-  { "type": "text", "q": " Mental Gelişim Açıklama ", "inline": true,  "blockSize": 6 },
+  {
+    "type": "text",
+    "q": " Mental Gelişim Açıklama ",
+    "inline": true,
+    "blockSize": 6
+  },
   {
     "type": "radiobutton",
     "q": " Febril Nöbet ",
-    "options": ["Var", "Yok", "Bilinmiyor"], "inline": true,  "blockSize": 6
+    "options": ["Var", "Yok", "Bilinmiyor"],
+    "inline": true,
+    "blockSize": 6
   },
-  { "type": "text", "q": " Febril Nöbet Açıklama (Yaşı, Sayısı, Şekli) ", "inline": true,  "blockSize": 6 },
-  { "type": "radiobutton", "q": " Yenidoğan ", "options": ["Var", "Yok"], "inline": true,  "blockSize": 6 },
-  { "type": "text", "q": " Yenidoğan Açıklama " , "inline": true,  "blockSize": 6},
-  { "type": "radiobutton", "q": " Kafa Tramvası ", "options": ["Var", "Yok"], "inline": true,  "blockSize": 3 },
-  { "type": "radiobutton", "q": " SSS hastalığı", "options": ["Var", "Yok"], "inline": true,  "blockSize": 3 },
-  { "type": "text", "q": " Başka Hastalık ", "inline": true,  "blockSize": 3 },
-  { "type": "radiobutton", "q": " Ame ", "options": ["Var", "Yok"] , "inline": true,  "blockSize": 3},
-  
-  {"type": "title", "q": " B-İLAÇ VE TEDAVİ ÖYKÜSÜ: ", "size": 5, "center": true, "underlined": true},
-  
+  {
+    "type": "text",
+    "q": " Febril Nöbet Açıklama (Yaşı, Sayısı, Şekli) ",
+    "inline": true,
+    "blockSize": 6
+  },
+  {
+    "type": "radiobutton",
+    "q": " Yenidoğan ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 6
+  },
+  {
+    "type": "text",
+    "q": " Yenidoğan Açıklama ",
+    "inline": true,
+    "blockSize": 6
+  },
+  {
+    "type": "radiobutton",
+    "q": " Kafa Tramvası ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 3
+  },
+  {
+    "type": "radiobutton",
+    "q": " SSS hastalığı",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 3
+  },
+  { "type": "text", "q": " Başka Hastalık ", "inline": true, "blockSize": 3 },
+  {
+    "type": "radiobutton",
+    "q": " Ame ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 3
+  },
+
+  {
+    "type": "title",
+    "q": " B-İLAÇ VE TEDAVİ ÖYKÜSÜ: ",
+    "size": 5,
+    "center": true,
+    "underlined": true
+  },
+
   {
     "type": "radiobutton",
     "q": " Aktif antinöbet ilaç kullanımı ",
-    "options": ["Var", "Yok"], "inline": true,  "blockSize": 6
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 6
   },
-  { "type": "radiobutton", "q": " Politerapi ", "options": ["Var", "Yok"], "inline": true,  "blockSize": 6 },
+  {
+    "type": "radiobutton",
+    "q": " Politerapi ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 6
+  },
   {
     "type": "dropdown",
     "q": " İlaç 1 ",
@@ -276,7 +479,8 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
   { "type": "text", "q": " İlaç 1 Kullanım Miktarı", "inline": true },
   {
@@ -330,9 +534,10 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
-  { "type": "text", "q": " İlaç 2 Kullanım Miktarı" , "inline": true},
+  { "type": "text", "q": " İlaç 2 Kullanım Miktarı", "inline": true },
   {
     "type": "checkbox",
     "q": "İlaç 2 Yan Etki",
@@ -383,9 +588,10 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
-  { "type": "text", "q": " İlaç 3 Kullanım Miktarı" , "inline": true},
+  { "type": "text", "q": " İlaç 3 Kullanım Miktarı", "inline": true },
   {
     "type": "checkbox",
     "q": "İlaç 3 Yan Etki",
@@ -412,7 +618,7 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " İlaç 3 Açıklama" , "inline": true},
+  { "type": "text", "q": " İlaç 3 Açıklama", "inline": true },
   {
     "type": "dropdown",
     "q": " İlaç 4 ",
@@ -436,9 +642,10 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
-  { "type": "text", "q": " İlaç 4 Kullanım Miktarı" , "inline": true},
+  { "type": "text", "q": " İlaç 4 Kullanım Miktarı", "inline": true },
   {
     "type": "checkbox",
     "q": "İlaç 4 Yan Etki",
@@ -465,7 +672,7 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " İlaç 4 Açıklama" , "inline": true},
+  { "type": "text", "q": " İlaç 4 Açıklama", "inline": true },
   {
     "type": "dropdown",
     "q": " İlaç 5 ",
@@ -489,7 +696,8 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
   { "type": "text", "q": " İlaç 5 Kullanım Miktarı", "inline": true },
   {
@@ -542,7 +750,8 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
   { "type": "text", "q": " İlaç 6 Kullanım Miktarı", "inline": true },
   {
@@ -571,7 +780,7 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " İlaç 6 Açıklama" , "inline": true},
+  { "type": "text", "q": " İlaç 6 Açıklama", "inline": true },
   {
     "type": "dropdown",
     "q": " İlaç 7 ",
@@ -595,7 +804,8 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
   { "type": "text", "q": " İlaç 7 Kullanım Miktarı", "inline": true },
   {
@@ -648,9 +858,14 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 1 Kullanım Miktarı" , "inline": true},
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 1 Kullanım Miktarı",
+    "inline": true
+  },
   {
     "type": "checkbox",
     "q": "Önceden Kullandığı İlaç 1 Yan Etki",
@@ -677,7 +892,11 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 1 Açıklama", "inline": true },
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 1 Açıklama",
+    "inline": true
+  },
 
   {
     "type": "dropdown",
@@ -702,9 +921,14 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 2 Kullanım Miktarı", "inline": true },
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 2 Kullanım Miktarı",
+    "inline": true
+  },
   {
     "type": "checkbox",
     "q": " Önceden Kullandığı İlaç 2 Yan Etki",
@@ -731,7 +955,11 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 2 Açıklama" , "inline": true},
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 2 Açıklama",
+    "inline": true
+  },
   {
     "type": "dropdown",
     "q": " Önceden Kullandığı İlaç 3 ",
@@ -755,9 +983,14 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 3 Kullanım Miktarı", "inline": true },
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 3 Kullanım Miktarı",
+    "inline": true
+  },
   {
     "type": "checkbox",
     "q": "Önceden Kullandığı İlaç 3 Yan Etki",
@@ -784,7 +1017,11 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 3 Açıklama" , "inline": true},
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 3 Açıklama",
+    "inline": true
+  },
   {
     "type": "dropdown",
     "q": " Önceden Kullandığı İlaç 4 ",
@@ -808,9 +1045,14 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 4 Kullanım Miktarı", "inline": true },
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 4 Kullanım Miktarı",
+    "inline": true
+  },
   {
     "type": "checkbox",
     "q": "Önceden Kullandığı İlaç 4 Yan Etki",
@@ -837,7 +1079,11 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 4 Açıklama", "inline": true },
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 4 Açıklama",
+    "inline": true
+  },
   {
     "type": "dropdown",
     "q": " Önceden Kullandığı İlaç 5 ",
@@ -861,9 +1107,14 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 5 Kullanım Miktarı", "inline": true },
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 5 Kullanım Miktarı",
+    "inline": true
+  },
   {
     "type": "checkbox",
     "q": "Önceden Kullandığı İlaç 5 Yan Etki",
@@ -890,7 +1141,11 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 5 Açıklama", "inline": true},
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 5 Açıklama",
+    "inline": true
+  },
   {
     "type": "dropdown",
     "q": " Önceden Kullandığı İlaç 6 ",
@@ -914,9 +1169,14 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 6 Kullanım Miktarı", "inline": true },
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 6 Kullanım Miktarı",
+    "inline": true
+  },
   {
     "type": "checkbox",
     "q": "Önceden Kullandığı İlaç 6 Yan Etki",
@@ -943,7 +1203,11 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 6 Açıklama", "inline": true },
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 6 Açıklama",
+    "inline": true
+  },
   {
     "type": "dropdown",
     "q": " Önceden Kullandığı İlaç 7 ",
@@ -967,9 +1231,14 @@
       " TPM ",
       " VPA ",
       " VGB "
-    ]
+    ],
+    "inline": true
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 7 Kullanım Miktarı", "inline": true },
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 7 Kullanım Miktarı",
+    "inline": true
+  },
   {
     "type": "checkbox",
     "q": "Önceden Kullandığı İlaç 7 Yan Etki",
@@ -996,7 +1265,11 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 7 Açıklama", "inline": true},
+  {
+    "type": "text",
+    "q": " Önceden Kullandığı İlaç 7 Açıklama",
+    "inline": true
+  },
   {
     "type": "checkbox",
     "q": "Diğer Tedaviler",
@@ -1014,31 +1287,77 @@
   {
     "type": "radiobutton",
     "q": " Paramedikal tedavi-Uygulama ",
-    "options": ["Var", "Yok"], "inline": true
+    "options": ["Var", "Yok"],
+    "inline": true
   },
   { "type": "text", "q": " Paramedikal tedavi-Uygulama Açıklama" },
-  
-  {"type": "title", "q": " VI. SOYGEÇMİŞ: ", "size": 3, "center": true, "underlined": true}, 
 
-  { "type": "radiobutton", "q": " Akrabalık", "options": ["Var", "Yok"] , "inline": true,"blockSize": 6},
-  { "type": "text", "q": " Akrabalık Derecesi" , "inline": true,"blockSize": 6},
+  {
+    "type": "title",
+    "q": " VI. SOYGEÇMİŞ: ",
+    "size": 3,
+    "center": true,
+    "underlined": true
+  },
+
+  {
+    "type": "radiobutton",
+    "q": " Akrabalık",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 6
+  },
+  {
+    "type": "text",
+    "q": " Akrabalık Derecesi",
+    "inline": true,
+    "blockSize": 6
+  },
   {
     "type": "radiobutton",
     "q": " Ailede Febril Nöbet",
-    "options": ["Var", "Yok"], "inline": true,"blockSize": 6
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 6
   },
-  { "type": "text", "q": " Ailede Febril Nöbet  Açıklama" , "inline": true,"blockSize": 6},
-  { "type": "radiobutton", "q": " Ailede Epilepsi", "options": ["Var", "Yok"] , "inline": true,"blockSize": 6},
-  { "type": "text", "q": " Ailede Epilepsi Açıklama", "inline": true,"blockSize": 6 },
-  
-  {"type": "title", "q": " VII. MUAYENE BİLGİLERİ", "size": 3, "center": true, "underlined": true}, 
-  
-  
+  {
+    "type": "text",
+    "q": " Ailede Febril Nöbet  Açıklama",
+    "inline": true,
+    "blockSize": 6
+  },
+  {
+    "type": "radiobutton",
+    "q": " Ailede Epilepsi",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 6
+  },
+  {
+    "type": "text",
+    "q": " Ailede Epilepsi Açıklama",
+    "inline": true,
+    "blockSize": 6
+  },
+
+  {
+    "type": "title",
+    "q": " VII. MUAYENE BİLGİLERİ",
+    "size": 3,
+    "center": true,
+    "underlined": true
+  },
+
   { "type": "text", "q": " Nörolojik Muayene" },
-  
-  {"type": "title", "q": " IX. LABORATUVAR BİLGİLERİ", "size": 3, "center": true, "underlined": true}, 
-  
-  
+
+  {
+    "type": "title",
+    "q": " IX. LABORATUVAR BİLGİLERİ",
+    "size": 3,
+    "center": true,
+    "underlined": true
+  },
+
   { "type": "text", "q": " EEG (rutin, video-EEG, uyku vb.)" },
   { "type": "text", "q": " NPT " },
   { "type": "text", "q": " PSİKYATRİK inceleme " },
@@ -1062,23 +1381,34 @@
   { "type": "text", "q": " Genetik Tanı Açıklama " },
   { "type": "text", "q": " Kan Tablosu Açıklama " },
   { "type": "text", "q": " Hasta Planı" },
-  { "type": "radiobutton", "q": " Ölçek", "options": ["Verildi", "Verilmedi"], "inline": true,"blockSize": 4 },
+  {
+    "type": "radiobutton",
+    "q": " Ölçek",
+    "options": ["Verildi", "Verilmedi"],
+    "inline": true,
+    "blockSize": 4
+  },
   {
     "type": "radiobutton",
     "q": " Anket ",
-    "options": ["Verildi", "Verilmedi"], "inline": true,"blockSize": 4
+    "options": ["Verildi", "Verilmedi"],
+    "inline": true,
+    "blockSize": 4
   },
   {
     "type": "radiobutton",
     "q": " Çalışma",
-    "options": ["Verildi", "Verilmedi"], "inline": true,"blockSize": 4
+    "options": ["Verildi", "Verilmedi"],
+    "inline": true,
+    "blockSize": 4
   },
   { "type": "text", "q": " Açıklama" },
   { "type": "text", "q": " Tanı" },
   {
     "type": "radiobutton",
     "q": " Cerrahi Adayı",
-    "options": ["Evet", "Hayır"], "inline": true
+    "options": ["Evet", "Hayır"],
+    "inline": true
   },
   { "type": "text", "q": " Cerrahi Adayı Açıklama" }
 ]

@@ -5,10 +5,10 @@ export default function RadiobuttonInput({ k, options, handleChange, inline }) {
     <React.Fragment>
       {inline ? (
         <div className="row">
-          <div className="col-2">
+          <div className="col-4">
             <div className="h6">{k}</div>
           </div>
-          <div className="col-10">
+          <div className="col-8">
             <div onChange={handleChange} name={k}>
               {options.map((x) => (
                 <span className="form-check form-check-inline">
