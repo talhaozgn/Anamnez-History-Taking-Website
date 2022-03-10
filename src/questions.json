@@ -890,7 +890,7 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 5 Açıklama" , "inline": true},
+  { "type": "text", "q": " Önceden Kullandığı İlaç 5 Açıklama", "inline": true},
   {
     "type": "dropdown",
     "q": " Önceden Kullandığı İlaç 6 ",
@@ -996,7 +996,7 @@
       "Ensefalopati"
     ]
   },
-  { "type": "text", "q": " Önceden Kullandığı İlaç 7 Açıklama" , "inline": true},
+  { "type": "text", "q": " Önceden Kullandığı İlaç 7 Açıklama", "inline": true},
   {
     "type": "checkbox",
     "q": "Diğer Tedaviler",
