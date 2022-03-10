@@ -22,7 +22,7 @@
     "type": "radiobutton",
     "q": "Cinsiyet",
     "options": ["Erkek", "Kadın"],
-    "inline": true, , "blockSize": 3 
+    "inline": true,  "blockSize": 3 
   },
   { "type": "text", "q": "Doğum Tarihi", "inline": true, "blockSize": 4 },
   { "type": "text", "q": " Doğum Yeri ", "inline": true,  "blockSize": 4 },
