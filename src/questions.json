@@ -6,7 +6,6 @@
     "center": true,
     "underlined": true
   },
-
   {
     "type": "title",
     "q": " KOÇ ÜNİVERSİTESİ",
@@ -425,7 +424,7 @@
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "radiobutton",
     "q": " Ame ",
@@ -435,7 +434,7 @@
   },
 
   { "type": "text", "q": " Başka Hastalık ", "inline": true, "blockSize": 3 },
-  
+
   {
     "type": "title",
     "q": " B-İLAÇ VE TEDAVİ ÖYKÜSÜ: ",
@@ -458,7 +457,7 @@
     "inline": true,
     "blockSize": 6
   },
-  
+
   {
     "type": "title",
     "q": " İLAÇ 1 ",
@@ -466,7 +465,7 @@
     "center": true,
     "underlined": true
   },
-  
+
   {
     "type": "dropdown",
     "q": " İlaç 1 ",
@@ -518,18 +517,19 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   { "type": "text", "q": " İlaç 1 Açıklama", "inline": true },
 
-    {
+  {
     "type": "title",
     "q": " İLAÇ 2 ",
     "size": 6,
     "center": true,
     "underlined": true
   },
-  
+
   {
     "type": "dropdown",
     "q": " İlaç 2 ",
@@ -581,18 +581,19 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   { "type": "text", "q": " İlaç 2 Açıklama", "inline": true },
-  
-    {
+
+  {
     "type": "title",
     "q": " İLAÇ 3 ",
     "size": 6,
     "center": true,
     "underlined": true
   },
-  
+
   {
     "type": "dropdown",
     "q": " İlaç 3 ",
@@ -644,17 +645,18 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   { "type": "text", "q": " İlaç 3 Açıklama", "inline": true },
-    {
+  {
     "type": "title",
     "q": " İLAÇ 4 ",
     "size": 6,
     "center": true,
     "underlined": true
   },
-  
+
   {
     "type": "dropdown",
     "q": " İlaç 4 ",
@@ -706,17 +708,18 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   { "type": "text", "q": " İlaç 4 Açıklama", "inline": true },
-   {
+  {
     "type": "title",
     "q": " İLAÇ 5 ",
     "size": 6,
     "center": true,
     "underlined": true
   },
-  
+
   {
     "type": "dropdown",
     "q": " İlaç 5 ",
@@ -768,10 +771,11 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   { "type": "text", "q": " İlaç 5 Açıklama", "inline": true },
-    {
+  {
     "type": "title",
     "q": " İLAÇ 6 ",
     "size": 6,
@@ -829,10 +833,11 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   { "type": "text", "q": " İlaç 6 Açıklama", "inline": true },
-    {
+  {
     "type": "title",
     "q": " İLAÇ 7 ",
     "size": 6,
@@ -890,10 +895,11 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   { "type": "text", "q": " İlaç 7 Açıklama", "inline": true },
-   {
+  {
     "type": "title",
     "q": " ÖNCEDEN KULLANDIĞI İLAÇ 1 ",
     "size": 6,
@@ -955,14 +961,15 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   {
     "type": "text",
     "q": " Önceden Kullandığı İlaç 1 Açıklama",
     "inline": true
   },
-{
+  {
     "type": "title",
     "q": " ÖNCEDEN KULLANDIĞI İLAÇ 2 ",
     "size": 6,
@@ -1024,14 +1031,15 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   {
     "type": "text",
     "q": " Önceden Kullandığı İlaç 2 Açıklama",
     "inline": true
   },
- {
+  {
     "type": "title",
     "q": " ÖNCEDEN KULLANDIĞI İLAÇ 3 ",
     "size": 6,
@@ -1093,7 +1101,8 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   {
     "type": "text",
@@ -1162,7 +1171,8 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   {
     "type": "text",
@@ -1231,7 +1241,8 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   {
     "type": "text",
@@ -1300,14 +1311,15 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   {
     "type": "text",
     "q": " Önceden Kullandığı İlaç 6 Açıklama",
     "inline": true
   },
- {
+  {
     "type": "title",
     "q": " ÖNCEDEN KULLANDIĞI İLAÇ 7 ",
     "size": 6,
@@ -1369,7 +1381,8 @@
       " Konuşma bozukluğu",
       " Sinirlilik",
       "Ensefalopati"
-    ]
+    ],
+    "inline": true
   },
   {
     "type": "text",
