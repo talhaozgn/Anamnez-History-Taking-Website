@@ -89,7 +89,8 @@
       "Klonik",
       "Tonik - Klonik",
       "Atonik"
-    ]
+    ],
+    "inline": true
   },
   {
     "type": "checkbox",
@@ -272,7 +273,8 @@
       " Uykuda periodik hareketler (huzursuz bacak)",
       " Uyku apnesi ",
       " Gece kabusu"
-    ]
+    ], 
+    "inline": true
   },
 
   { "type": "text", "q": "Boy", "inline": true, "blockSize": 4 },
@@ -1400,7 +1402,8 @@
       " ketojenik diyet ",
       " VSS vd ",
       " uyku hijyeni "
-    ]
+    ], 
+    "inline": true
   },
   { "type": "text", "q": " Diğer Tedaviler Açıklama" },
   {
@@ -1494,7 +1497,8 @@
       " SPECT interiktal ",
       " PET ",
       " DSA "
-    ]
+    ], 
+    "inline": true
   },
   { "type": "text", "q": " Görüntüleme Açıklama " },
   { "type": "text", "q": " Genetik Tanı Açıklama " },
