@@ -10,9 +10,6 @@ import { Document, Packer, Paragraph, TextRun, AlignmentType } from "docx";
 import { saveAs } from "file-saver";
 import FormulaInput from "./inputcomponents/FormulaInput";
 
-// TODO ilaclar cok yer kapliyor onlari gruplayabiliriz belki somehow
-// TODO mobil?
-
 export default function CustomizedForm() {
   const [inp, setInp] = useState({}); // quesiton.q - value
   const [excelHere, setExcelHere] = useState(null);
@@ -254,7 +251,7 @@ export default function CustomizedForm() {
         let textSpecs = {
           text: question.q,
           bold: true,
-          size: (6 - question.size) * 4 + 20,
+          size: (6 - question.size) * 2 + 26,
         };
         let paraSpecs = {};
 
@@ -268,27 +265,35 @@ export default function CustomizedForm() {
             children: [new TextRun(textSpecs)],
           })
         );
-
-        docText.push(
-          new Paragraph({
-            children: [new TextRun("")],
-          })
-        );
       } else {
-        docText.push(
-          new Paragraph({
-            children: [new TextRun({ text: question.q, bold: true })],
-          })
-        );
-        docText.push(
-          new Paragraph({
-            children: [new TextRun(dataSet[question.q])],
-          })
-        );
+        if (question.inline) {
+          docText.push(
+            new Paragraph({
+              children: [
+                new TextRun({ text: question.q, bold: true, size: 24 }),
+                new TextRun({ text: ": ", size: 24 }),
+                new TextRun({ text: dataSet[question.q], size: 24 }),
+              ],
+            })
+          );
+        } else {
+          docText.push(
+            new Paragraph({
+              children: [
+                new TextRun({ text: question.q, bold: true, size: 24 }),
+              ],
+            })
+          );
+          docText.push(
+            new Paragraph({
+              children: [new TextRun({ text: dataSet[question.q], size: 24 })],
+            })
+          );
+        }
       }
       docText.push(
         new Paragraph({
-          children: [new TextRun("")],
+          children: [new TextRun({ text: "", size: 24 })],
         })
       );
     });
