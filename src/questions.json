@@ -325,7 +325,7 @@
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 3
-  }
+  },
 
   {
     "type": "radiobutton",
@@ -338,7 +338,7 @@
   {
     "type": "text",
     "q": " Sosyal Durum Açıklama",
-    "inline": true,
+    "inline": true
    
   },
   
@@ -1616,7 +1616,10 @@
     "underlined": true
   },
   { "type": "text", "q": " Tanı ", "inline": true },
-{ "type": "radiobutton", "q": " Sendrom Tanısı ", "options": ["Var", "Yok], "inline": true, "blockSize": 6 },
+{ "type": "radiobutton", "q": " Sendrom Tanısı ", "options": ["Var", "Yok"], "inline": true,
+    "blockSize": 4 },
+                                                              
+                                                              
               { "type": "text", "q": " Sendrom Tanısı Açıklama ", "inline": true, "blockSize": 6 },                                                 
   { "type": "radiobutton", "q": " Etiyoloji ", "options": ["Bilinmeyen", "Genetik", "İmmün","Yapısal"], "inline": true },
   {
