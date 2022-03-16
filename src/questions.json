@@ -7,19 +7,12 @@
     "underlined": true
   },
   {
-    "type": "title",
-    "q": " KOÇ ÜNİVERSİTESİ",
-    "size": 1,
-    "center": true,
+    "type": "checkbox",
+    "q": " Hastane",
+    "options": ["Koç Üniversitesi Hastanesi", "Amerikan Hastanesi"],
     "underlined": true
   },
-  {
-    "type": "title",
-    "q": " EPİLEPSİ POLİKLİNİĞİ ",
-    "size": 1,
-    "center": true,
-    "underlined": true
-  },
+
 
   { "type": "text", "q": "Tarih", "inline": true, "blockSize": 3 },
   { "type": "text", "q": "T.C. No", "inline": true, "blockSize": 5 },
@@ -67,42 +60,11 @@
     "inline": true,
     "blockSize": 6
   },
-  {
-    "type": "title",
-    "q": " II. ÖZET BİLGİLER ",
-    "size": 3,
-    "center": true,
-    "underlined": true
-  },
-  { "type": "text", "q": " Tanı ", "inline": true },
-  { "type": "text", "q": " Sendrom Tanısı", "inline": true, "blockSize": 6 },
-  { "type": "text", "q": " Etiyolojik Tanı ", "inline": true, "blockSize": 6 },
-  {
-    "type": "checkbox",
-    "q": "Nöbet Tipleri",
-    "options": [
-      "Jeneralize",
-      "Fokal",
-      "Miyokloni",
-      "Absans",
-      "Tonik",
-      "Klonik",
-      "Tonik - Klonik",
-      "Atonik"
-    ],
-    "inline": true
-  },
-  {
-    "type": "checkbox",
-    "q": " İzlemede Özellik",
-    "options": ["ID", "Down"],
-    "inline": true
-  },
-  { "type": "text", "q": " İzlemede Özellik Ekstra" },
+  
 
   {
     "type": "title",
-    "q": " III. KLİNİK BİLGİLER",
+    "q": " II. KLİNİK BİLGİLER",
     "size": 3,
     "center": true,
     "underlined": true
@@ -219,20 +181,44 @@
     "type": "text",
     "q": " En son nöbet tarihi ",
     "inline": true,
-    "blockSize": 4
+    "blockSize": 6
   },
-  {
-    "type": "text",
-    "q": " Yatma ve uyanma saatleri ",
-    "inline": true,
-    "blockSize": 4
-  },
+
   {
     "type": "text",
     "q": "Jeneralize Nöbet sıklığı (Ayda)",
     "inline": true,
-    "blockSize": 4
+    "blockSize": 6
   },
+  
+    {
+    "type": "text",
+    "q": " Yatma saati ",
+    "inline": true,
+    "blockSize": 6
+  },
+  
+      {
+    "type": "dropdown",
+    "q": " Uyuma Saati ",
+    "options": [
+      "00:00 ", " 00:30 ","01:00 ", " 01:30 ","02:00 ", " 02:30 ","03:00 ", " 03:30 ","04:00 ", " 04:30 ","05:00 ", " 05:30 ","06:00 ", " 06:30 ","70:00 ", " 07:30 ","08:00 ", " 08:30 ","09:00 ", " 09:30 ","10:00 ", " 10:30 ","00:00 ", " 11:30 ","12:00 ", " 12:30 ","13:00 ", " 13:30 ","14:00 ", " 14:30 ",
+      "15:00 ", " 15:30 ","16:00 ", " 16:30 ","17:00 ", " 17:30 ","18:00 ", " 18:30 ","19:00 ", " 19:30 ","20:00 ", " 20:30 ","21:00 ", " 21:30 ","22:00 ", " 22:30 ","23:00 ", " 23:30 "
+    ],
+    "inline": true, "blockSize": 6
+  },
+  
+    {
+    "type": "dropdown",
+    "q": " Uyanma Saati ",
+    "options": [
+      "00:00 ", " 00:30 ","01:00 ", " 01:30 ","02:00 ", " 02:30 ","03:00 ", " 03:30 ","04:00 ", " 04:30 ","05:00 ", " 05:30 ","06:00 ", " 06:30 ","70:00 ", " 07:30 ","08:00 ", " 08:30 ","09:00 ", " 09:30 ","10:00 ", " 10:30 ","00:00 ", " 11:30 ","12:00 ", " 12:30 ","13:00 ", " 13:30 ","14:00 ", " 14:30 ",
+      "15:00 ", " 15:30 ","16:00 ", " 16:30 ","17:00 ", " 17:30 ","18:00 ", " 18:30 ","19:00 ", " 19:30 ","20:00 ", " 20:30 ","21:00 ", " 21:30 ","22:00 ", " 22:30 ","23:00 ", " 23:30 "
+    ],
+    "inline": true, "blockSize": 6
+  },
+  
+  
   {
     "type": "radiobutton",
     "q": " Uykuya dalma sorunu ",
@@ -276,6 +262,8 @@
     ], 
     "inline": true
   },
+  
+  { "type": "text", "q": "Uykuda", "inline": true },
 
   { "type": "text", "q": "Boy", "inline": true, "blockSize": 4 },
   { "type": "text", "q": "Kilo", "inline": true, "blockSize": 4 },
@@ -289,7 +277,7 @@
 
   {
     "type": "title",
-    "q": " IV. SOSYAL DURUM ",
+    "q": " III. SOSYAL DURUM ",
     "size": 3,
     "center": true,
     "underlined": true
@@ -322,23 +310,38 @@
     "q": " Sigara ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 4
+    "blockSize": 3
   },
   {
     "type": "radiobutton",
     "q": " Madde kullanımı ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 4
+    "blockSize": 3
   },
   {
     "type": "radiobutton",
     "q": " Nargile",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 4
+    "blockSize": 3
   },
 
+  {
+    "type": "radiobutton",
+    "q": " Askerlik",
+    "options": ["Yaptı", "Yapmadı"],
+    "inline": true,
+    "blockSize": 3
+  },
+  
+  {
+    "type": "text",
+    "q": " Sosyal Durum Açıklama",
+    "inline": true,
+   
+  },
+  
   {
     "type": "title",
     "q": " IV. ÖZGEÇMİŞ ",
@@ -419,10 +422,33 @@
     "inline": true,
     "blockSize": 4
   },
+  
+   {
+    "type": "text",
+    "q": " Kafa Tramvası Adet ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+   {
+    "type": "text",
+    "q": " Kafa Tramvası Açıklama",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  
   {
     "type": "radiobutton",
     "q": " SSS hastalığı",
     "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 4
+  },
+  
+   {
+    "type": "text",
+    "q": " SSS Açıklama",
     "inline": true,
     "blockSize": 4
   },
@@ -1416,7 +1442,7 @@
 
   {
     "type": "title",
-    "q": " VI. SOYGEÇMİŞ: ",
+    "q": " V. SOYGEÇMİŞ: ",
     "size": 3,
     "center": true,
     "underlined": true
@@ -1464,23 +1490,69 @@
 
   {
     "type": "title",
-    "q": " VII. MUAYENE BİLGİLERİ",
+    "q": " VI. MUAYENE BİLGİLERİ",
     "size": 3,
     "center": true,
     "underlined": true
   },
 
   { "type": "text", "q": " Nörolojik Muayene" },
-
+  
+  
+{
+    "type": "radiobutton",
+    "q": " Doğum Lekesi",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 6
+  },
+  
+  { "type": "text", "q": "Doğum Lekesi Açıklama" ,"inline": true, "blockSize": 6 },
+  
   {
     "type": "title",
-    "q": " IX. LABORATUVAR BİLGİLERİ",
+    "q": " VII. LABORATUVAR BİLGİLERİ",
     "size": 3,
     "center": true,
     "underlined": true
   },
 
-  { "type": "text", "q": " EEG (rutin, video-EEG, uyku vb.)" },
+   {
+    "type": "title",
+    "q": " EEG 1 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  
+  { "type": "text", "q": " EEG 1 Tarih" },
+  
+  { "type": "text", "q": " EEG 1 Açıklama" },
+  
+  {
+    "type": "title",
+    "q": " EEG 2 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  
+  { "type": "text", "q": " EEG 2 Tarih" },
+  
+  { "type": "text", "q": " EEG 2 Açıklama" },
+  
+   {
+    "type": "title",
+    "q": " EEG 3 ",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  
+  { "type": "text", "q": " EEG 3 Tarih" },
+  
+  { "type": "text", "q": " EEG 3 Açıklama" },
+  
   { "type": "text", "q": " NPT " },
   { "type": "text", "q": " PSİKYATRİK inceleme " },
   {
@@ -1535,3 +1607,219 @@
   },
   { "type": "text", "q": " Cerrahi Adayı Açıklama" }
 ]
+
+{
+    "type": "title",
+    "q": " VII. ÖZET BİLGİLER ",
+    "size": 3,
+    "center": true,
+    "underlined": true
+  },
+  { "type": "text", "q": " Tanı ", "inline": true },
+{ "type": "radiobutton", "q": " Sendrom Tanısı ", "options": ["Var", "Yok], "inline": true, "blockSize": 6 },
+              { "type": "text", "q": " Sendrom Tanısı Açıklama ", "inline": true, "blockSize": 6 },                                                 
+  { "type": "radiobutton", "q": " Etiyoloji ", "options": ["Bilinmeyen", "Genetik", "İmmün","Yapısal"], "inline": true },
+  {
+    "type": "checkbox",
+    "q": "Nöbet Tipleri",
+    "options": [
+      "Jeneralize",
+      "Fokal",
+      "Miyokloni",
+      "Absans",
+      "Tonik",
+      "Klonik",
+      "Tonik - Klonik",
+      "Atonik"
+    ],
+    "inline": true
+  },
+  
+  {
+    "type": "title",
+    "q": " NÖBET 1 ",
+    "size": 6,
+    "center": false,
+    "underlined": true
+  },
+  
+  {
+    "type": "text",
+    "q": " Başlangıç Yılı ",
+    "inline": true,
+    "blockSize": 4
+  },
+
+    {
+    "type": "text",
+    "q": " Sıklığı ",
+    "inline": true,
+    "blockSize": 4
+  },
+   
+  
+  {
+    "type": "text",
+    "q": " Klinik Bulguları ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Sıklıkta artma ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Kayboldu mu ? ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Açıklama ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "title",
+    "q": " NÖBET 2 ",
+    "size": 6,
+    "center": false,
+    "underlined": true
+  },
+  
+  {
+    "type": "text",
+    "q": " Başlangıç Yılı ",
+    "inline": true,
+    "blockSize": 4
+  },
+
+    {
+    "type": "text",
+    "q": " Sıklığı ",
+    "inline": true,
+    "blockSize": 4
+  },
+   
+  
+  {
+    "type": "text",
+    "q": " Klinik Bulguları ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Sıklıkta artma ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Kayboldu mu ? ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Açıklama ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "title",
+    "q": " NÖBET 3 ",
+    "size": 6,
+    "center": false,
+    "underlined": true
+  },
+  
+  {
+    "type": "text",
+    "q": " Başlangıç Yılı ",
+    "inline": true,
+    "blockSize": 4
+  },
+
+    {
+    "type": "text",
+    "q": " Sıklığı ",
+    "inline": true,
+    "blockSize": 4
+  },
+   
+  
+  {
+    "type": "text",
+    "q": " Klinik Bulguları ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Sıklıkta artma ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Kayboldu mu ? ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Açıklama ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "title",
+    "q": " NÖBET 4 ",
+    "size": 6,
+    "center": false,
+    "underlined": true
+  },
+  
+  {
+    "type": "text",
+    "q": " Açıklama ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "radiobutton",
+    "q": " Intellectual Disability",
+    "options": ["Var", "yok"],
+    "inline": true,
+    "blockSize": 6
+  },
+  
+  
+   {
+    "type": "radiobutton",
+    "q": " Down Sendromf",
+    "options": ["Var", "yok"],
+    "inline": true,
+    "blockSize": 6
+  },
+  
+  
+  
+  { "type": "text", "q": " İzlemede Özellik Ekstra" },
