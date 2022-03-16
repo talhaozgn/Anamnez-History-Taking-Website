@@ -1778,7 +1778,7 @@
     "type": "radiobutton",
     "q": " Görüntüleme ",
     "options": ["N", "Anormal"],
-    "inline": true,
+    "inline": true
   },
   
   
