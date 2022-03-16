@@ -241,7 +241,7 @@
     "blockSize": 4
   },
   {
-    "type": "text",
+    "type": "text,
     "q": " Uykudan uyandığınızda kendinizi ne kadar sıklıkla yorgun ve halsiz hissedersiniz?"
   },
   {
