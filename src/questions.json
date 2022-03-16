@@ -603,21 +603,21 @@
     "q": " Kafa Tramvası ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 4
+    "blockSize": 2
   },
   
    {
     "type": "text",
     "q": " Kafa Tramvası Adet ",
     "inline": true,
-    "blockSize": 4
+    "blockSize": 3
   },
   
    {
     "type": "text",
     "q": " Kafa Tramvası Açıklama",
     "inline": true,
-    "blockSize": 4
+    "blockSize": 7
   },
   
   
@@ -626,14 +626,14 @@
     "q": " SSS hastalığı",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 4
+    "blockSize": 2
   },
   
    {
     "type": "text",
     "q": " SSS Açıklama",
     "inline": true,
-    "blockSize": 4
+    "blockSize": 7
   },
 
   {
@@ -641,7 +641,7 @@
     "q": " Ame ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 4
+    "blockSize": 3
   },
 
   { "type": "text", "q": " Başka Hastalık ", "inline": true },
