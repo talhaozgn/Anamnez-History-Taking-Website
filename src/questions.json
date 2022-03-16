@@ -644,7 +644,7 @@
     "blockSize": 4
   },
 
-  { "type": "text", "q": " Başka Hastalık ", "inline": true, "blockSize": 3 },
+  { "type": "text", "q": " Başka Hastalık ", "inline": true },
 
   {
     "type": "title",
@@ -1722,10 +1722,10 @@
     "q": " Doğum Lekesi",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 6
+    "blockSize": 3
   },
   
-  { "type": "text", "q": "Doğum Lekesi Açıklama" ,"inline": true, "blockSize": 6 },
+  { "type": "text", "q": "Doğum Lekesi Açıklama" ,"inline": true, "blockSize": 9 },
   
   {
     "type": "title",
@@ -1854,7 +1854,7 @@
     "blockSize": 4 },
                                                               
                                                               
-              { "type": "text", "q": " Sendrom Tanısı Açıklama ", "inline": true, "blockSize": 6 },                                                 
+              { "type": "text", "q": " Sendrom Tanısı Açıklama ", "inline": true, "blockSize": 8 },                                                 
   { "type": "radiobutton", "q": " Etiyoloji ", "options": ["Bilinmeyen", "Genetik", "İmmün","Yapısal","Enfeksiyon", "Metabolik"], "inline": true },
   {
     "type": "checkbox",
