@@ -76,7 +76,203 @@
     "center": true,
     "underlined": true
   },
+  
+  
+  {
+    "type": "title",
+    "q": " NÖBET 1 ",
+    "size": 6,
+    "center": false,
+    "underlined": true
+  },
+  
+  {
+    "type": "text",
+    "q": " Başlangıç Yılı ",
+    "inline": true,
+    "blockSize": 4
+  },
 
+    {
+    "type": "text",
+    "q": " Sıklığı ",
+    "inline": true,
+    "blockSize": 4
+  },
+   
+  
+  {
+    "type": "text",
+    "q": " Klinik Bulguları ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Sıklıkta artma ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Kayboldu mu ? ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Açıklama "
+    
+    
+  },
+  
+  {
+    "type": "title",
+    "q": " NÖBET 2 ",
+    "size": 6,
+    "center": false,
+    "underlined": true
+  },
+  
+  {
+    "type": "text",
+    "q": " Başlangıç Yılı ",
+    "inline": true,
+    "blockSize": 4
+  },
+
+    {
+    "type": "text",
+    "q": " Sıklığı ",
+    "inline": true,
+    "blockSize": 4
+  },
+   
+  
+  {
+    "type": "text",
+    "q": " Klinik Bulguları ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Sıklıkta artma ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Kayboldu mu ? ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Açıklama "
+    
+
+  },
+  
+  {
+    "type": "title",
+    "q": " NÖBET 3 ",
+    "size": 6,
+    "center": false,
+    "underlined": true
+  },
+  
+  {
+    "type": "text",
+    "q": " Başlangıç Yılı ",
+    "inline": true,
+    "blockSize": 4
+  },
+
+    {
+    "type": "text",
+    "q": " Sıklığı ",
+    "inline": true,
+    "blockSize": 4
+  },
+   
+  
+  {
+    "type": "text",
+    "q": " Klinik Bulguları ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Sıklıkta artma ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Kayboldu mu ? ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " Açıklama "
+ 
+  },
+  
+  {
+    "type": "title",
+    "q": " NÖBET 4 ",
+    "size": 6,
+    "center": false,
+    "underlined": true
+  },
+  
+  {
+    "type": "text",
+    "q": " Açıklama "
+   
+  },
+  
+{
+    "type": "radiobutton",
+    "q": " Jeneralize nöbet",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 6
+  },
+  
+  {
+    "type": "text",
+    "q": "Jeneralize Nöbet sıklığı (Ayda)",
+    "inline": true,
+    "blockSize": 6
+  },
+  {
+    "type": "radiobutton",
+    "q": " Fokal nöbet",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 6
+  },
+  
+  {
+    "type": "text",
+    "q": "Foakl Nöbet sıklığı (Ayda)",
+    "inline": true,
+    "blockSize": 6
+  },
+  
   {
     "type": "radiobutton",
     "q": " Aura ",
@@ -92,13 +288,7 @@
     "inline": true,
     "blockSize": 4
   },
-  {
-    "type": "radiobutton",
-    "q": " Jeneralize nöbet",
-    "options": ["Var", "Yok"],
-    "inline": true,
-    "blockSize": 4
-  },
+  
   {
     "type": "radiobutton",
     "q": " Myokloni uykuda ",
@@ -184,12 +374,7 @@
     "blockSize": 6
   },
 
-  {
-    "type": "text",
-    "q": "Jeneralize Nöbet sıklığı (Ayda)",
-    "inline": true,
-    "blockSize": 6
-  },
+  
   
 
   
@@ -258,6 +443,8 @@
     "inline": true
   },
   
+  
+  { "type": "text", "q": "Uykuda Açıklama"},
   
 
   { "type": "text", "q": "Boy", "inline": true, "blockSize": 4 },
@@ -476,8 +663,8 @@
   },
   {
     "type": "radiobutton",
-    "q": " Politerapi ",
-    "options": ["Var", "Yok"],
+    "q": " Terapi ",
+    "options": ["Monoterapi", "Politerapi"],
     "inline": true,
     "blockSize": 6
   },
@@ -531,6 +718,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -595,6 +784,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -659,6 +850,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -722,6 +915,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -785,6 +980,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -847,6 +1044,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -909,6 +1108,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -975,6 +1176,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -1045,6 +1248,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -1115,6 +1320,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -1185,6 +1392,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -1255,6 +1464,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -1325,6 +1536,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -1395,6 +1608,8 @@
       "Ataksi",
       " Sersemlik = baş dönmesi",
       " Görme bouzkluğu",
+      " Görme kaybı",
+      " ürolitiyazis",
       " Bulantı, kusma ",
       " Kognitif bozukluklar (mental yavaşlama buna dahil)",
       " Kilo artışı / kaybı ",
@@ -1492,6 +1707,13 @@
     "underlined": true
   },
 
+   {
+    "type": "radiobutton",
+    "q": " Nörolojik Muayene",
+    "options": ["N", "Anormal"],
+    "inline": true,
+  },
+  
   { "type": "text", "q": " Nörolojik Muayene" },
   
   
@@ -1551,6 +1773,7 @@
   
   { "type": "text", "q": " NPT " },
   { "type": "text", "q": " PSİKYATRİK inceleme " },
+  
   {
     "type": "checkbox",
     "q": "Görüntüleme",
@@ -1567,6 +1790,12 @@
       " DSA "
     ], 
     "inline": true
+  },
+  {
+    "type": "radiobutton",
+    "q": " Nörolojik Muayene",
+    "options": ["N", "Anormal"],
+    "inline": true,
   },
   { "type": "text", "q": " Görüntüleme Açıklama " },
   { "type": "text", "q": " Genetik Tanı Açıklama " },
@@ -1621,7 +1850,7 @@
                                                               
                                                               
               { "type": "text", "q": " Sendrom Tanısı Açıklama ", "inline": true, "blockSize": 6 },                                                 
-  { "type": "radiobutton", "q": " Etiyoloji ", "options": ["Bilinmeyen", "Genetik", "İmmün","Yapısal"], "inline": true },
+  { "type": "radiobutton", "q": " Etiyoloji ", "options": ["Bilinmeyen", "Genetik", "İmmün","Yapısal","Enfeksiyon", "Metabolik"], "inline": true },
   {
     "type": "checkbox",
     "q": "Nöbet Tipleri",
@@ -1636,172 +1865,6 @@
       "Atonik"
     ],
     "inline": true
-  },
-  
-  {
-    "type": "title",
-    "q": " NÖBET 1 ",
-    "size": 6,
-    "center": false,
-    "underlined": true
-  },
-  
-  {
-    "type": "text",
-    "q": " Başlangıç Yılı ",
-    "inline": true,
-    "blockSize": 4
-  },
-
-    {
-    "type": "text",
-    "q": " Sıklığı ",
-    "inline": true,
-    "blockSize": 4
-  },
-   
-  
-  {
-    "type": "text",
-    "q": " Klinik Bulguları ",
-    "inline": true,
-    "blockSize": 4
-  },
-  
-  {
-    "type": "text",
-    "q": " Sıklıkta artma ",
-    "inline": true,
-    "blockSize": 4
-  },
-  
-  {
-    "type": "text",
-    "q": " Kayboldu mu ? ",
-    "inline": true,
-    "blockSize": 4
-  },
-  
-  {
-    "type": "text",
-    "q": " Açıklama "
-    
-    
-  },
-  
-  {
-    "type": "title",
-    "q": " NÖBET 2 ",
-    "size": 6,
-    "center": false,
-    "underlined": true
-  },
-  
-  {
-    "type": "text",
-    "q": " Başlangıç Yılı ",
-    "inline": true,
-    "blockSize": 4
-  },
-
-    {
-    "type": "text",
-    "q": " Sıklığı ",
-    "inline": true,
-    "blockSize": 4
-  },
-   
-  
-  {
-    "type": "text",
-    "q": " Klinik Bulguları ",
-    "inline": true,
-    "blockSize": 4
-  },
-  
-  {
-    "type": "text",
-    "q": " Sıklıkta artma ",
-    "inline": true,
-    "blockSize": 4
-  },
-  
-  {
-    "type": "text",
-    "q": " Kayboldu mu ? ",
-    "inline": true,
-    "blockSize": 4
-  },
-  
-  {
-    "type": "text",
-    "q": " Açıklama "
-    
-
-  },
-  
-  {
-    "type": "title",
-    "q": " NÖBET 3 ",
-    "size": 6,
-    "center": false,
-    "underlined": true
-  },
-  
-  {
-    "type": "text",
-    "q": " Başlangıç Yılı ",
-    "inline": true,
-    "blockSize": 4
-  },
-
-    {
-    "type": "text",
-    "q": " Sıklığı ",
-    "inline": true,
-    "blockSize": 4
-  },
-   
-  
-  {
-    "type": "text",
-    "q": " Klinik Bulguları ",
-    "inline": true,
-    "blockSize": 4
-  },
-  
-  {
-    "type": "text",
-    "q": " Sıklıkta artma ",
-    "inline": true,
-    "blockSize": 4
-  },
-  
-  {
-    "type": "text",
-    "q": " Kayboldu mu ? ",
-    "inline": true,
-    "blockSize": 4
-  },
-  
-  {
-    "type": "text",
-    "q": " Açıklama "
- 
-  },
-  
-  {
-    "type": "title",
-    "q": " NÖBET 4 ",
-    "size": 6,
-    "center": false,
-    "underlined": true
-  },
-  
-  {
-    "type": "text",
-    "q": " Açıklama "
-   
   },
   
   {
