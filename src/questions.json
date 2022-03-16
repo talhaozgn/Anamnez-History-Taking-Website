@@ -297,7 +297,7 @@
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
-  }
+  },
   {
     "type": "radiobutton",
     "q": " Alkol ",
@@ -348,7 +348,7 @@
     "size": 3,
     "center": true,
     "underlined": true
-  },
+  }
 
   {
     "type": "radiobutton",
