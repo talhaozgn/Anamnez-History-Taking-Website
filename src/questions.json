@@ -1711,7 +1711,7 @@
     "type": "radiobutton",
     "q": " Nörolojik Muayene ",
     "options": ["N", "Anormal"],
-    "inline": true,
+    "inline": true
   },
   
   { "type": "text", "q": " Nörolojik Muayene" },
