@@ -1709,7 +1709,7 @@
 
    {
     "type": "radiobutton",
-    "q": " Nörolojik Muayene",
+    "q": " Nörolojik Muayene ",
     "options": ["N", "Anormal"],
     "inline": true,
   },
@@ -1797,7 +1797,7 @@
     "options": ["N", "Anormal"],
     "inline": true,
   },
-  { "type": "text", "q": " Görüntüleme Açıklama " }
+  { "type": "text", "q": " Görüntüleme Açıklama " },
   
   
   { "type": "text", "q": " Genetik Tanı Açıklama " },
