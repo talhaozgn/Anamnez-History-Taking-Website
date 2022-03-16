@@ -1797,7 +1797,9 @@
     "options": ["N", "Anormal"],
     "inline": true,
   },
-  { "type": "text", "q": " Görüntüleme Açıklama " },
+  { "type": "text", "q": " Görüntüleme Açıklama " }
+  
+  
   { "type": "text", "q": " Genetik Tanı Açıklama " },
   { "type": "text", "q": " Kan Tablosu Açıklama " },
   { "type": "text", "q": " Hasta Planı" },
