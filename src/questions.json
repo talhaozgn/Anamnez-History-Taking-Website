@@ -1605,8 +1605,8 @@
     "options": ["Evet", "Hayır"],
     "inline": true
   },
-  { "type": "text", "q": " Cerrahi Adayı Açıklama" }
-]
+  { "type": "text", "q": " Cerrahi Adayı Açıklama" },
+
 
 {
     "type": "title",
