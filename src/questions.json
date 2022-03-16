@@ -1774,6 +1774,14 @@
   { "type": "text", "q": " NPT " },
   { "type": "text", "q": " PSİKYATRİK inceleme " },
   
+    {
+    "type": "radiobutton",
+    "q": " Görüntüleme ",
+    "options": ["N", "Anormal"],
+    "inline": true,
+  },
+  
+  
   {
     "type": "checkbox",
     "q": "Görüntüleme",
@@ -1791,12 +1799,7 @@
     ], 
     "inline": true
   },
-  {
-    "type": "radiobutton",
-    "q": " Nörolojik Muayene",
-    "options": ["N", "Anormal"],
-    "inline": true,
-  },
+
   { "type": "text", "q": " Görüntüleme Açıklama " },
   
   
