@@ -1685,7 +1685,7 @@
   {
     "type": "text",
     "q": " Açıklama ",
-    "inline": true,
+    "inline": true
     
   },
   
@@ -1736,7 +1736,7 @@
   {
     "type": "text",
     "q": " Açıklama ",
-    "inline": true,
+    "inline": true
 
   },
   
@@ -1787,7 +1787,7 @@
   {
     "type": "text",
     "q": " Açıklama ",
-    "inline": true,
+    "inline": true
  
   },
   
@@ -1802,7 +1802,7 @@
   {
     "type": "text",
     "q": " Açıklama ",
-    "inline": true,
+    "inline": true
    
   },
   
@@ -1817,7 +1817,7 @@
   
    {
     "type": "radiobutton",
-    "q": " Down Sendromf",
+    "q": " Down Sendromu",
     "options": ["Var", "yok"],
     "inline": true,
     "blockSize": 6
