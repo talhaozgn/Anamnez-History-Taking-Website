@@ -325,7 +325,7 @@
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 3
-  },
+  }
 
   {
     "type": "radiobutton",
@@ -348,7 +348,7 @@
     "size": 3,
     "center": true,
     "underlined": true
-  }
+  },
 
   {
     "type": "radiobutton",
