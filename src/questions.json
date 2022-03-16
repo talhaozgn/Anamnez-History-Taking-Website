@@ -191,12 +191,7 @@
     "blockSize": 6
   },
   
-    {
-    "type": "text",
-    "q": " Yatma saati ",
-    "inline": true,
-    "blockSize": 6
-  },
+
   
       {
     "type": "dropdown",
@@ -263,7 +258,7 @@
     "inline": true
   },
   
-  { "type": "text", "q": "Uykuda", "inline": true },
+  
 
   { "type": "text", "q": "Boy", "inline": true, "blockSize": 4 },
   { "type": "text", "q": "Kilo", "inline": true, "blockSize": 4 },
@@ -332,7 +327,8 @@
     "q": " Askerlik",
     "options": ["Yaptı", "Yapmadı"],
     "inline": true,
-    "blockSize": 3
+    "blockSize": 3,
+    "inline": true
   },
   
   {
@@ -1690,7 +1686,7 @@
     "type": "text",
     "q": " Açıklama ",
     "inline": true,
-    "blockSize": 4
+    
   },
   
   {
@@ -1741,7 +1737,7 @@
     "type": "text",
     "q": " Açıklama ",
     "inline": true,
-    "blockSize": 4
+
   },
   
   {
@@ -1792,7 +1788,7 @@
     "type": "text",
     "q": " Açıklama ",
     "inline": true,
-    "blockSize": 4
+ 
   },
   
   {
@@ -1807,7 +1803,7 @@
     "type": "text",
     "q": " Açıklama ",
     "inline": true,
-    "blockSize": 4
+   
   },
   
   {
