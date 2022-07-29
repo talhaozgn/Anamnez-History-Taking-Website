@@ -53,14 +53,44 @@
   { "type": "text", "q": " Tel  1", "inline": true, "blockSize": 6 },
   { "type": "text", "q": " Tel  2", "inline": true, "blockSize": 6 },
   { "type": "text", "q": " Adres/posta kodu " },
-  { "type": "text", "q": " Gönderen", "inline": true, "blockSize": 6 },
+  { "type": "text", "q": " Gönderen", "inline": true, "blockSize": 4 },
   {
     "type": "text",
     "q": " Öyküyü alan doktor ",
     "inline": true,
-    "blockSize": 6
+    "blockSize": 4
   },
   
+  {
+    "type": "radiobutton",
+    "q": "Ketojenik Diyet",
+    "options": ["var", "yok"],
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": "Genetik ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " İlaç Çalışması ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " VNS / Cerrahi ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+   { "type": "text", "q": "İzlemede Özellik " },
 
   {
     "type": "title",
@@ -118,6 +148,13 @@
   {
     "type": "text",
     "q": " Kayboldu mu ? ",
+    "inline": true,
+    "blockSize": 4
+  },
+  
+  {
+    "type": "text",
+    "q": " En son nöbet ",
     "inline": true,
     "blockSize": 4
   },
@@ -470,7 +507,7 @@
     "q": " Sürücü Ehliyeti ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 4
+    "blockSize": 3
   },
 
   {
@@ -478,15 +515,33 @@
     "q": " Alerji ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 4
+    "blockSize": 2
   },
   {
     "type": "radiobutton",
     "q": " Alkol ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 4
+    "blockSize": 2
   },
+  
+  {
+    "type": "radiobutton",
+    "q": " Ot ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 2
+  },
+  
+  {
+    "type": "radiobutton",
+    "q": "Çay ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 3
+  },
+  
+  
   {
     "type": "radiobutton",
     "q": " Sigara ",
@@ -644,6 +699,24 @@
     "blockSize": 3
   },
 
+   {
+    "type": "checkbox",
+    "q": "Başka Hastalık",
+    "options": [
+      "Artrit",
+      "Kanser",
+      " KOAH",
+      " Benign Prostat Hiperplazisi ",
+      " Kronik Fatik",
+      " Kronik Ağrı",
+      " Fibromiyalji",
+      " Parkinson",
+      " Hareket bozukluğu"
+    
+    ], 
+    "inline": true
+  },
+  
   { "type": "text", "q": " Başka Hastalık ", "inline": true },
 
   {
@@ -669,6 +742,20 @@
     "blockSize": 6
   },
 
+   {
+    "type": "checkbox",
+    "q": "Epilepsi Dışı İlaçlar",
+    "options": [
+      "Beta Bloker",
+      " Klonidin",
+      " Teofilin",
+      " Antidepresan",
+      " Dekonjestan",
+      " Stimülan"
+    ],
+    "inline": true
+  },
+  
   {
     "type": "title",
     "q": " İLAÇ 1 ",
@@ -1685,6 +1772,17 @@
     "inline": true,
     "blockSize": 6
   },
+    {
+    "type": "checkbox",
+    "q": "Ailede:",
+    "options": [
+      "İnsomnia",
+      " Hipersomnia",
+      " Uyku hastalığına bağlı ölüm"
+    ], 
+    "inline": true
+  },
+  
   {
     "type": "radiobutton",
     "q": " Ailede Epilepsi",
