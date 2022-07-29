@@ -1780,7 +1780,8 @@
       " Hipersomnia",
       " Uyku hastalığına bağlı ölüm"
     ], 
-    "inline": true
+    "inline": true,
+      "blockSize": 4
   },
   
   {
@@ -1788,13 +1789,13 @@
     "q": " Ailede Epilepsi",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 6
+    "blockSize": 4
   },
   {
     "type": "text",
     "q": " Ailede Epilepsi Açıklama",
     "inline": true,
-    "blockSize": 6
+    "blockSize": 4
   },
 
   {
