@@ -15,8 +15,9 @@
 
 
   { "type": "text", "q": "Tarih", "inline": true, "blockSize": 3 },
-  { "type": "text", "q": "T.C. No", "inline": true, "blockSize": 5 },
-  { "type": "text", "q": "Prot. No", "inline": true, "blockSize": 4 },
+  { "type": "text", "q": "T.C. No", "inline": true, "blockSize": 3 },
+  { "type": "text", "q": "Prot. No", "inline": true, "blockSize": 3 },
+  { "type": "text", "q": "Gönderen Doktor", "inline": true, "blockSize": 3 },
 
   {
     "type": "title",
@@ -92,6 +93,7 @@
   
    { "type": "text", "q": "İzlemede Özellik " },
 
+
   {
     "type": "title",
     "q": " II. KLİNİK BİLGİLER",
@@ -99,6 +101,9 @@
     "center": true,
     "underlined": true
   },
+  
+  { "type": "text", "q": "Öykü " },
+  
   {
     "type": "title",
     "q": " A-ÖYKÜ: ",
