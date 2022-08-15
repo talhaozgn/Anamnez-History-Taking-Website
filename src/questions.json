@@ -512,7 +512,7 @@
     "q": " Sürücü Ehliyeti ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 2
+    "blockSize": 3
   },
   
    {
@@ -520,16 +520,10 @@
     "q": " Araba kullanıyor mu? ",
     "options": ["Evet", "Hayır"],
     "inline": true,
-    "blockSize": 2
+    "blockSize": 3
   },
 
-  {
-    "type": "radiobutton",
-    "q": " Alerji ",
-    "options": ["Var", "Yok"],
-    "inline": true,
-    "blockSize": 2
-  },
+  
   {
     "type": "radiobutton",
     "q": " Alkol ",
@@ -538,7 +532,15 @@
     "blockSize": 2
   },
   
-  { "type": "text", "q": "Alkol yıl-kadeh", "inline": true, "blockSize": 3 },
+  { "type": "text", "q": "Alkol yıl-kadeh", "inline": true, "blockSize": 4 },
+  
+  {
+    "type": "radiobutton",
+    "q": " Alerji ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 2
+  },
   
   {
     "type": "radiobutton",
@@ -565,7 +567,7 @@
     "blockSize": 2
   },
   
-  { "type": "text", "q": "Sigara paket-yıl", "inline": true, "blockSize": 3 },
+  { "type": "text", "q": "Sigara paket-yıl", "inline": true, "blockSize": 4 },
   
   {
     "type": "radiobutton",
@@ -575,7 +577,7 @@
     "blockSize": 2
   },
   
-  { "type": "text", "q": "Madde kullanım yılı", "inline": true, "blockSize": 3 },
+  { "type": "text", "q": "Madde kullanım yılı", "inline": true, "blockSize": 4 },
   
   {
     "type": "radiobutton",
@@ -585,7 +587,7 @@
     "blockSize": 2
   },
 
-  { "type": "text", "q": "Nargile kullanım yılı", "inline": true, "blockSize": 3 },
+  { "type": "text", "q": "Nargile kullanım yılı", "inline": true, "blockSize": 4 },
   
   {
     "type": "radiobutton",
@@ -602,7 +604,8 @@
   {
     "type": "text",
     "q": " Sosyal Durum Açıklama",
-    "inline": true
+    "inline": true,
+    "blockSize": 7
    
   },
   
