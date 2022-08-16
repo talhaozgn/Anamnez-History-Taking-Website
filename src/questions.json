@@ -1900,7 +1900,7 @@
   { "type": "text", "q": " EEG 3 Açıklama" },
   
   { "type": "text", "q": " NPT " },
-  { "type": "text", "q": " PSİKYATRİK inceleme " },
+  { "type": "text", "q": " Psikiyatrik inceleme " },
   
     {
     "type": "radiobutton",
