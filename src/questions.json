@@ -115,7 +115,7 @@
   
   {
     "type": "title",
-    "q": " NÖBET 1 ",
+    "q": " NÖBET 1",
     "size": 6,
     "center": false,
     "underlined": true
@@ -123,14 +123,14 @@
   
   {
     "type": "text",
-    "q": " Başlangıç Yılı ",
+    "q": "(Nöbet 1)Başlangıç Yılı",
     "inline": true,
     "blockSize": 4
   },
 
     {
     "type": "text",
-    "q": " Sıklığı ",
+    "q": "(Nöbet 1)Sıklığı",
     "inline": true,
     "blockSize": 4
   },
@@ -138,35 +138,35 @@
   
   {
     "type": "text",
-    "q": " Klinik Bulguları ",
+    "q": "(Nöbet 1)Klinik Bulguları",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": " Sıklıkta artma ",
+    "q": "(Nöbet 1)Sıklıkta artma",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": " Kayboldu mu ? ",
+    "q": "(Nöbet 1)Kayboldu mu ?",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": " En son nöbet ",
+    "q": "(Nöbet 1)En son nöbet",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": " Açıklama "
+    "q": "(Nöbet 1)Açıklama"
     
     
   },
@@ -181,14 +181,14 @@
   
   {
     "type": "text",
-    "q": " Başlangıç Yılı ",
+    "q": "(Nöbet 2)Başlangıç Yılı ",
     "inline": true,
     "blockSize": 4
   },
 
     {
     "type": "text",
-    "q": " Sıklığı ",
+    "q": "(Nöbet 2)Sıklığı ",
     "inline": true,
     "blockSize": 4
   },
@@ -196,35 +196,35 @@
   
   {
     "type": "text",
-    "q": " Klinik Bulguları ",
+    "q": "(Nöbet 2)Klinik Bulguları ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": " Sıklıkta artma ",
+    "q": "(Nöbet 2)Sıklıkta artma ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": " Kayboldu mu ? ",
+    "q": "(Nöbet 2)Kayboldu mu ? ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": " Açıklama "
+    "q": "(Nöbet 2)Açıklama "
     
 
   },
   
   {
     "type": "title",
-    "q": " NÖBET 3 ",
+    "q": " NÖBET 3. ",
     "size": 6,
     "center": false,
     "underlined": true
@@ -232,14 +232,14 @@
   
   {
     "type": "text",
-    "q": " Başlangıç Yılı ",
+    "q": "(Nöbet 3)Başlangıç Yılı  ",
     "inline": true,
     "blockSize": 4
   },
 
     {
     "type": "text",
-    "q": " Sıklığı ",
+    "q": "(Nöbet 3)Sıklığı  ",
     "inline": true,
     "blockSize": 4
   },
@@ -247,28 +247,28 @@
   
   {
     "type": "text",
-    "q": " Klinik Bulguları ",
+    "q": "(Nöbet 3)Klinik Bulguları  ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": " Sıklıkta artma ",
+    "q": "(Nöbet 3)Sıklıkta artma  ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": " Kayboldu mu ? ",
+    "q": "(Nöbet 3)Kayboldu mu ?  ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": " Açıklama "
+    "q": "(Nöbet 3)Açıklama  "
  
   },
   
@@ -282,7 +282,7 @@
   
   {
     "type": "text",
-    "q": " Açıklama "
+    "q": "(Nöbet 4)Açıklama   "
    
   },
   
