@@ -123,14 +123,14 @@
   
   {
     "type": "text",
-    "q": "(Nöbet 1)Başlangıç Yılı",
+    "q": "(N1)Başlangıç Yılı",
     "inline": true,
     "blockSize": 4
   },
 
     {
     "type": "text",
-    "q": "(Nöbet 1)Sıklığı",
+    "q": "(N1)Sıklığı",
     "inline": true,
     "blockSize": 4
   },
@@ -138,35 +138,35 @@
   
   {
     "type": "text",
-    "q": "(Nöbet 1)Klinik Bulguları",
+    "q": "(N1)Klinik Bulguları",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": "(Nöbet 1)Sıklıkta artma",
+    "q": "(N1)Sıklıkta artma",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": "(Nöbet 1)Kayboldu mu ?",
+    "q": "(N1)Kayboldu mu ?",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": "(Nöbet 1)En son nöbet",
+    "q": "(N1)En son nöbet",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": "(Nöbet 1)Açıklama"
+    "q": "(N1)Açıklama"
     
     
   },
@@ -181,14 +181,14 @@
   
   {
     "type": "text",
-    "q": "(Nöbet 2)Başlangıç Yılı ",
+    "q": "(N2)Başlangıç Yılı ",
     "inline": true,
     "blockSize": 4
   },
 
     {
     "type": "text",
-    "q": "(Nöbet 2)Sıklığı ",
+    "q": "(N2)Sıklığı ",
     "inline": true,
     "blockSize": 4
   },
@@ -196,28 +196,28 @@
   
   {
     "type": "text",
-    "q": "(Nöbet 2)Klinik Bulguları ",
+    "q": "(N2)Klinik Bulguları ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": "(Nöbet 2)Sıklıkta artma ",
+    "q": "(N2)Sıklıkta artma ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": "(Nöbet 2)Kayboldu mu ? ",
+    "q": "(N2)Kayboldu mu ? ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": "(Nöbet 2)Açıklama "
+    "q": "(N2)Açıklama "
     
 
   },
@@ -232,14 +232,14 @@
   
   {
     "type": "text",
-    "q": "(Nöbet 3)Başlangıç Yılı  ",
+    "q": "(N3)Başlangıç Yılı  ",
     "inline": true,
     "blockSize": 4
   },
 
     {
     "type": "text",
-    "q": "(Nöbet 3)Sıklığı  ",
+    "q": "(N3)Sıklığı  ",
     "inline": true,
     "blockSize": 4
   },
@@ -247,28 +247,28 @@
   
   {
     "type": "text",
-    "q": "(Nöbet 3)Klinik Bulguları  ",
+    "q": "(N3)Klinik Bulguları  ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": "(Nöbet 3)Sıklıkta artma  ",
+    "q": "(N3)Sıklıkta artma  ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": "(Nöbet 3)Kayboldu mu ?  ",
+    "q": "(N3)Kayboldu mu ?  ",
     "inline": true,
     "blockSize": 4
   },
   
   {
     "type": "text",
-    "q": "(Nöbet 3)Açıklama  "
+    "q": "(N3)Açıklama  "
  
   },
   
@@ -282,7 +282,7 @@
   
   {
     "type": "text",
-    "q": "(Nöbet 4)Açıklama   "
+    "q": "(N4)Açıklama   "
    
   },
   
