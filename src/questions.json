@@ -120,7 +120,7 @@
     "blockSize": 4
   },
   
-  { "type": "text", "q": " Açıklama ","blockSize": 8, "inline": true, },
+  { "type": "text", "q": " Açıklama ","blockSize": 8, "inline": true },
   
   
   {
