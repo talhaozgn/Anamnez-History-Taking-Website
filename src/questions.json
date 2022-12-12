@@ -829,6 +829,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+      " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
       
     ],
@@ -898,6 +901,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -966,6 +972,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -1033,6 +1042,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -1100,6 +1112,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -1166,6 +1181,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -1232,6 +1250,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -1298,6 +1319,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -1372,6 +1396,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -1446,6 +1473,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -1520,6 +1550,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -1594,6 +1627,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -1668,6 +1704,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -1742,6 +1781,9 @@
       " VPA ",
       " VGB ",
       " ZNS ",
+        " PER ",
+      " CBD ",
+      " ESL ",
       " DİĞER "
     ],
     "inline": true
@@ -2044,7 +2086,7 @@
                                                               
                                                               
               { "type": "text", "q": " Sendrom Tanısı Açıklama ", "inline": true, "blockSize": 8 },                                                 
-  { "type": "radiobutton", "q": " Etiyoloji ", "options": ["Bilinmeyen", "Genetik", "İmmün","Yapısal","Enfeksiyon", "Metabolik"], "inline": true },
+  { "type": "checkbox", "q": " Etiyoloji ", "options": ["Bilinmeyen", "Genetik", "İmmün","Yapısal","Enfeksiyon", "Metabolik"], "inline": true },
   {
     "type": "checkbox",
     "q": "Nöbet Tipleri",
