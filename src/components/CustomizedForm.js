@@ -229,7 +229,7 @@ export default function CustomizedForm() {
       >
         <ExcelSheet data={[getDataSet()]} name="excel-export">
           {questions
-            .filter((x) => x.type !== "title")
+            .filter((x) => x.type !== "title") // TODO ignore type == reflect
             .map((x) => (
               <ExcelColumn label={x.q} value={x.q} />
             ))}
@@ -247,6 +247,7 @@ export default function CustomizedForm() {
     let docText = [];
 
     questions.forEach((question) => {
+      // TODO: if type == reflect -> continue
       if (question.type === "title") {
         let textSpecs = {
           text: question.q,

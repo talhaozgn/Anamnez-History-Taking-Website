@@ -13,7 +13,6 @@
     "underlined": true
   },
 
-
   { "type": "text", "q": "Tarih", "inline": true, "blockSize": 3 },
   { "type": "text", "q": "T.C. No", "inline": true, "blockSize": 3 },
   { "type": "text", "q": "Prot. No", "inline": true, "blockSize": 3 },
@@ -61,7 +60,7 @@
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "radiobutton",
     "q": "Ketojenik Diyet",
@@ -69,30 +68,29 @@
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "text",
     "q": "Genetik ",
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "text",
     "q": " İlaç Çalışması ",
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "text",
     "q": " VNS / Cerrahi ",
     "inline": true,
     "blockSize": 4
   },
-  
-   { "type": "text", "q": "İzlemede Özellik " },
 
+  { "type": "text", "q": "İzlemede Özellik " },
 
   {
     "type": "title",
@@ -101,9 +99,9 @@
     "center": true,
     "underlined": true
   },
-  
+
   { "type": "text", "q": "Öykü " },
-  
+
   {
     "type": "title",
     "q": " A-ÖYKÜ: ",
@@ -111,18 +109,17 @@
     "center": true,
     "underlined": true
   },
-  
-     {
+
+  {
     "type": "radiobutton",
     "q": " Baş Ağrısı ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-  
-  { "type": "text", "q": " Açıklama ","blockSize": 8, "inline": true },
-  
-  
+
+  { "type": "text", "q": " Açıklama ", "blockSize": 8, "inline": true },
+
   {
     "type": "title",
     "q": " NÖBET 1",
@@ -130,7 +127,7 @@
     "center": false,
     "underlined": true
   },
-  
+
   {
     "type": "text",
     "q": "(N1)Başlangıç Yılı",
@@ -138,75 +135,69 @@
     "blockSize": 4
   },
 
-    {
+  {
     "type": "text",
     "q": "(N1)Sıklığı",
     "inline": true,
     "blockSize": 4
   },
-   
-  
+
   {
     "type": "text",
     "q": "(N1)Klinik Bulguları",
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "text",
     "q": "(N1)Sıklıkta artma",
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "text",
     "q": "(N1)Kayboldu mu ?",
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "text",
     "q": "(N1)En son nöbet",
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "text",
     "q": "(N1)Açıklama"
-    
-    
   },
-  
-    {
+
+  {
     "type": "radiobutton",
     "q": " Alerji ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-  
-    
+
   {
     "type": "text",
     "q": "Alerji  ",
     "inline": true,
     "blockSize": 8
   },
-  
-  
-  
-{
+
+  {
     "type": "radiobutton",
     "q": " Jeneralize nöbet",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "text",
     "q": "Jeneralize Nöbet sıklığı (Ayda)",
@@ -220,14 +211,14 @@
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "text",
     "q": "Foakl Nöbet sıklığı (Ayda)",
     "inline": true,
     "blockSize": 8
   },
-  
+
   {
     "type": "radiobutton",
     "q": " Aura ",
@@ -243,7 +234,7 @@
     "inline": true,
     "blockSize": 4
   },
-  
+
   {
     "type": "radiobutton",
     "q": " Myokloni uykuda ",
@@ -321,78 +312,78 @@
     "inline": true,
     "blockSize": 4
   },
-  
-   {
+
+  {
     "type": "radiobutton",
     "q": " Konjunktivada Kızarıklık  ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-   {
+  {
     "type": "radiobutton",
     "q": " Lakrimasyon ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-   {
+  {
     "type": "radiobutton",
     "q": " Nazal Konjesyon ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-   {
+  {
     "type": "radiobutton",
     "q": " Burun Akıntısı ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-   {
+  {
     "type": "radiobutton",
     "q": " Gözkapağı Ödemi ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-   {
+  {
     "type": "radiobutton",
     "q": " Alında/Yüzde Şişkinlik ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-   {
+  {
     "type": "radiobutton",
     "q": " Alında/Yüzde Kızarıklık ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-   {
+  {
     "type": "radiobutton",
     "q": " Kulakta dolgunluk hissi ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-   {
+  {
     "type": "radiobutton",
     "q": " Miyosiz ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-   {
+  {
     "type": "radiobutton",
     "q": " Ptoz ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 4
   },
-   {
+  {
     "type": "radiobutton",
     "q": " Boyun Ağrısı ",
     "options": ["Var", "Yok"],
@@ -400,7 +391,6 @@
     "blockSize": 4
   },
 
-   
   { "type": "text", "q": " Yıllar içinde nöbet değişikliği " },
   {
     "type": "text",
@@ -409,31 +399,120 @@
     "blockSize": 6
   },
 
-  
-  
-
-  
-      {
+  {
     "type": "dropdown",
     "q": " Uyuma Saati ",
     "options": [
-      "00:00 ", " 00:30 ","01:00 ", " 01:30 ","02:00 ", " 02:30 ","03:00 ", " 03:30 ","04:00 ", " 04:30 ","05:00 ", " 05:30 ","06:00 ", " 06:30 ","07:00 ", " 07:30 ","08:00 ", " 08:30 ","09:00 ", " 09:30 ","10:00 ", " 10:30 ","11:00 ", " 11:30 ","12:00 ", " 12:30 ","13:00 ", " 13:30 ","14:00 ", " 14:30 ",
-      "15:00 ", " 15:30 ","16:00 ", " 16:30 ","17:00 ", " 17:30 ","18:00 ", " 18:30 ","19:00 ", " 19:30 ","20:00 ", " 20:30 ","21:00 ", " 21:30 ","22:00 ", " 22:30 ","23:00 ", " 23:30 "
+      "00:00 ",
+      " 00:30 ",
+      "01:00 ",
+      " 01:30 ",
+      "02:00 ",
+      " 02:30 ",
+      "03:00 ",
+      " 03:30 ",
+      "04:00 ",
+      " 04:30 ",
+      "05:00 ",
+      " 05:30 ",
+      "06:00 ",
+      " 06:30 ",
+      "07:00 ",
+      " 07:30 ",
+      "08:00 ",
+      " 08:30 ",
+      "09:00 ",
+      " 09:30 ",
+      "10:00 ",
+      " 10:30 ",
+      "11:00 ",
+      " 11:30 ",
+      "12:00 ",
+      " 12:30 ",
+      "13:00 ",
+      " 13:30 ",
+      "14:00 ",
+      " 14:30 ",
+      "15:00 ",
+      " 15:30 ",
+      "16:00 ",
+      " 16:30 ",
+      "17:00 ",
+      " 17:30 ",
+      "18:00 ",
+      " 18:30 ",
+      "19:00 ",
+      " 19:30 ",
+      "20:00 ",
+      " 20:30 ",
+      "21:00 ",
+      " 21:30 ",
+      "22:00 ",
+      " 22:30 ",
+      "23:00 ",
+      " 23:30 "
     ],
-    "inline": true, "blockSize": 6
+    "inline": true,
+    "blockSize": 6
   },
-  
-    {
+
+  {
     "type": "dropdown",
     "q": " Uyanma Saati ",
     "options": [
-     "00:00 ", " 00:30 ","01:00 ", " 01:30 ","02:00 ", " 02:30 ","03:00 ", " 03:30 ","04:00 ", " 04:30 ","05:00 ", " 05:30 ","06:00 ", " 06:30 ","07:00 ", " 07:30 ","08:00 ", " 08:30 ","09:00 ", " 09:30 ","10:00 ", " 10:30 ","11:00 ", " 11:30 ","12:00 ", " 12:30 ","13:00 ", " 13:30 ","14:00 ", " 14:30 ",
-      "15:00 ", " 15:30 ","16:00 ", " 16:30 ","17:00 ", " 17:30 ","18:00 ", " 18:30 ","19:00 ", " 19:30 ","20:00 ", " 20:30 ","21:00 ", " 21:30 ","22:00 ", " 22:30 ","23:00 ", " 23:30 "
+      "00:00 ",
+      " 00:30 ",
+      "01:00 ",
+      " 01:30 ",
+      "02:00 ",
+      " 02:30 ",
+      "03:00 ",
+      " 03:30 ",
+      "04:00 ",
+      " 04:30 ",
+      "05:00 ",
+      " 05:30 ",
+      "06:00 ",
+      " 06:30 ",
+      "07:00 ",
+      " 07:30 ",
+      "08:00 ",
+      " 08:30 ",
+      "09:00 ",
+      " 09:30 ",
+      "10:00 ",
+      " 10:30 ",
+      "11:00 ",
+      " 11:30 ",
+      "12:00 ",
+      " 12:30 ",
+      "13:00 ",
+      " 13:30 ",
+      "14:00 ",
+      " 14:30 ",
+      "15:00 ",
+      " 15:30 ",
+      "16:00 ",
+      " 16:30 ",
+      "17:00 ",
+      " 17:30 ",
+      "18:00 ",
+      " 18:30 ",
+      "19:00 ",
+      " 19:30 ",
+      "20:00 ",
+      " 20:30 ",
+      "21:00 ",
+      " 21:30 ",
+      "22:00 ",
+      " 22:30 ",
+      "23:00 ",
+      " 23:30 "
     ],
-    "inline": true, "blockSize": 6
+    "inline": true,
+    "blockSize": 6
   },
-  
-  
+
   {
     "type": "radiobutton",
     "q": " Uykuya dalma sorunu ",
@@ -455,15 +534,15 @@
     "inline": true,
     "blockSize": 6
   },
-  
-    {
+
+  {
     "type": "radiobutton",
     "q": " Uykusuzluk ",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 6
   },
-  
+
   {
     "type": "radiobutton",
     "q": " Aşırı Uyuma ",
@@ -471,8 +550,7 @@
     "inline": true,
     "blockSize": 6
   },
-  
-  
+
   {
     "type": "text",
     "q": " Uykudan uyandığınızda kendinizi ne kadar sıklıkla yorgun ve halsiz hissedersiniz?"
@@ -492,13 +570,11 @@
       " Uykuda periodik hareketler (huzursuz bacak)",
       " Uyku apnesi ",
       " Gece kabusu"
-    ], 
+    ],
     "inline": true
   },
-  
-  
-  { "type": "text", "q": "Uykuda Açıklama"},
-  
+
+  { "type": "text", "q": "Uykuda Açıklama" },
 
   { "type": "text", "q": "Boy", "inline": true, "blockSize": 4 },
   { "type": "text", "q": "Kilo", "inline": true, "blockSize": 4 },
@@ -525,8 +601,8 @@
     "inline": true,
     "blockSize": 3
   },
-  
-   {
+
+  {
     "type": "radiobutton",
     "q": " Araba kullanıyor mu? ",
     "options": ["Evet", "Hayır"],
@@ -534,7 +610,6 @@
     "blockSize": 3
   },
 
-  
   {
     "type": "radiobutton",
     "q": " Alkol ",
@@ -542,11 +617,9 @@
     "inline": true,
     "blockSize": 2
   },
-  
-  { "type": "text", "q": "Alkol yıl-kadeh", "inline": true, "blockSize": 4 },
-  
 
-  
+  { "type": "text", "q": "Alkol yıl-kadeh", "inline": true, "blockSize": 4 },
+
   {
     "type": "radiobutton",
     "q": " Ot ",
@@ -554,7 +627,7 @@
     "inline": true,
     "blockSize": 3
   },
-  
+
   {
     "type": "radiobutton",
     "q": "Çay ",
@@ -562,8 +635,7 @@
     "inline": true,
     "blockSize": 3
   },
-  
-  
+
   {
     "type": "radiobutton",
     "q": " Sigara ",
@@ -571,9 +643,9 @@
     "inline": true,
     "blockSize": 2
   },
-  
+
   { "type": "text", "q": "Sigara paket-yıl", "inline": true, "blockSize": 4 },
-  
+
   {
     "type": "radiobutton",
     "q": " Madde kullanımı ",
@@ -581,9 +653,14 @@
     "inline": true,
     "blockSize": 2
   },
-  
-  { "type": "text", "q": "Madde kullanım yılı", "inline": true, "blockSize": 4 },
-  
+
+  {
+    "type": "text",
+    "q": "Madde kullanım yılı",
+    "inline": true,
+    "blockSize": 4
+  },
+
   {
     "type": "radiobutton",
     "q": " Nargile",
@@ -592,8 +669,13 @@
     "blockSize": 2
   },
 
-  { "type": "text", "q": "Nargile kullanım yılı", "inline": true, "blockSize": 4 },
-  
+  {
+    "type": "text",
+    "q": "Nargile kullanım yılı",
+    "inline": true,
+    "blockSize": 4
+  },
+
   {
     "type": "radiobutton",
     "q": " Askerlik",
@@ -602,18 +684,16 @@
     "blockSize": 2,
     "inline": true
   },
-  
+
   { "type": "text", "q": "Askerlik Rapor (?)", "inline": true, "blockSize": 3 },
-  
-  
+
   {
     "type": "text",
     "q": " Sosyal Durum Açıklama",
     "inline": true,
     "blockSize": 7
-   
   },
-  
+
   {
     "type": "title",
     "q": " IV. ÖZGEÇMİŞ ",
@@ -694,22 +774,21 @@
     "inline": true,
     "blockSize": 2
   },
-  
-   {
+
+  {
     "type": "text",
     "q": " Kafa Tramvası Adet ",
     "inline": true,
     "blockSize": 3
   },
-  
-   {
+
+  {
     "type": "text",
     "q": " Kafa Tramvası Açıklama",
     "inline": true,
     "blockSize": 7
   },
-  
-  
+
   {
     "type": "radiobutton",
     "q": " SSS hastalığı",
@@ -717,8 +796,8 @@
     "inline": true,
     "blockSize": 4
   },
-  
-   {
+
+  {
     "type": "text",
     "q": " SSS Açıklama",
     "inline": true,
@@ -732,15 +811,15 @@
     "inline": true,
     "blockSize": 4
   },
-  
-   {
+
+  {
     "type": "text",
     "q": " Ameliyat Açıklama",
     "inline": true,
     "blockSize": 8
   },
 
-   {
+  {
     "type": "checkbox",
     "q": "Başka Hastalık",
     "options": [
@@ -753,11 +832,10 @@
       " Fibromiyalji",
       " Parkinson",
       " Hareket bozukluğu"
-    
-    ], 
+    ],
     "inline": true
   },
-  
+
   { "type": "text", "q": " Başka Hastalık ", "inline": true },
 
   {
@@ -783,7 +861,7 @@
     "blockSize": 6
   },
 
-   {
+  {
     "type": "checkbox",
     "q": "Epilepsi Dışı İlaçlar",
     "options": [
@@ -796,7 +874,7 @@
     ],
     "inline": true
   },
-  
+
   {
     "type": "title",
     "q": " İLAÇ 1 ",
@@ -833,7 +911,6 @@
       " CBD ",
       " ESL ",
       " DİĞER "
-      
     ],
     "inline": true
   },
@@ -901,7 +978,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -972,7 +1049,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1042,7 +1119,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1112,7 +1189,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1181,7 +1258,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1250,7 +1327,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1319,7 +1396,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1396,7 +1473,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1473,7 +1550,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1550,7 +1627,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1627,7 +1704,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1704,7 +1781,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1781,7 +1858,7 @@
       " VPA ",
       " VGB ",
       " ZNS ",
-        " PER ",
+      " PER ",
       " CBD ",
       " ESL ",
       " DİĞER "
@@ -1838,7 +1915,7 @@
       " ketojenik diyet ",
       " VSS vd ",
       " uyku hijyeni "
-    ], 
+    ],
     "inline": true
   },
   { "type": "text", "q": " Diğer Tedaviler Açıklama" },
@@ -1884,8 +1961,7 @@
     "inline": true,
     "blockSize": 8
   },
-   
-  
+
   {
     "type": "radiobutton",
     "q": " Ailede Epilepsi",
@@ -1900,26 +1976,21 @@
     "blockSize": 8
   },
 
-   {
+  {
     "type": "checkbox",
     "q": "Ailede:",
-    "options": [
-      "İnsomnia",
-      " Hipersomnia",
-      " Uyku hastalığına bağlı ölüm"
-    ], 
+    "options": ["İnsomnia", " Hipersomnia", " Uyku hastalığına bağlı ölüm"],
     "inline": true,
-      "blockSize": 4
+    "blockSize": 4
   },
-  
-    {
+
+  {
     "type": "text",
     "q": " Ailede Başka Hastalık ",
     "inline": true,
     "blockSize": 8
   },
-  
-  
+
   {
     "type": "title",
     "q": " VI. MUAYENE BİLGİLERİ",
@@ -1928,36 +1999,39 @@
     "underlined": true
   },
 
-   {
+  {
     "type": "radiobutton",
     "q": " Nörolojik Muayene ",
     "options": ["N", "Anormal"],
     "inline": true,
-       "blockSize": 6
+    "blockSize": 6
   },
-  
-   {
+
+  {
     "type": "radiobutton",
     "q": " El Dominansı ",
     "options": ["Sağ", "Sol", "Bilateral"],
     "inline": true,
-     "blockSize": 6
+    "blockSize": 6
   },
-  
-  
+
   { "type": "text", "q": " Nörolojik Muayene" },
-  
-  
-{
+
+  {
     "type": "radiobutton",
     "q": " Doğum Lekesi",
     "options": ["Var", "Yok"],
     "inline": true,
     "blockSize": 3
   },
-  
-  { "type": "text", "q": "Doğum Lekesi Açıklama" ,"inline": true, "blockSize": 9 },
-  
+
+  {
+    "type": "text",
+    "q": "Doğum Lekesi Açıklama",
+    "inline": true,
+    "blockSize": 9
+  },
+
   {
     "type": "title",
     "q": " VII. LABORATUVAR BİLGİLERİ",
@@ -1966,18 +2040,18 @@
     "underlined": true
   },
 
-   {
+  {
     "type": "title",
     "q": " EEG 1 ",
     "size": 6,
     "center": true,
     "underlined": true
   },
-  
-  { "type": "text", "q": " EEG 1 Tarih" , "inline": true, "blockSize": 6},
-  
+
+  { "type": "text", "q": " EEG 1 Tarih", "inline": true, "blockSize": 6 },
+
   { "type": "text", "q": " EEG 1 Açıklama" },
-  
+
   {
     "type": "title",
     "q": " EEG 2 ",
@@ -1985,34 +2059,33 @@
     "center": true,
     "underlined": true
   },
-  
+
   { "type": "text", "q": " EEG 2 Tarih", "inline": true, "blockSize": 6 },
-  
+
   { "type": "text", "q": " EEG 2 Açıklama" },
-  
-   {
+
+  {
     "type": "title",
     "q": " EEG 3 ",
     "size": 6,
     "center": true,
     "underlined": true
   },
-  
-  { "type": "text", "q": " EEG 3 Tarih", "inline": true,"blockSize": 6 },
-  
+
+  { "type": "text", "q": " EEG 3 Tarih", "inline": true, "blockSize": 6 },
+
   { "type": "text", "q": " EEG 3 Açıklama" },
-  
+
   { "type": "text", "q": " NPT " },
   { "type": "text", "q": " Psikiyatrik inceleme " },
-  
-    {
+
+  {
     "type": "radiobutton",
     "q": " Görüntüleme ",
     "options": ["N", "Anormal"],
     "inline": true
   },
-  
-  
+
   {
     "type": "checkbox",
     "q": "Görüntüleme",
@@ -2027,13 +2100,12 @@
       " SPECT interiktal ",
       " PET ",
       " DSA "
-    ], 
+    ],
     "inline": true
   },
 
   { "type": "text", "q": " Görüntüleme Açıklama " },
-  
-  
+
   { "type": "text", "q": " Genetik Tanı Açıklama " },
   { "type": "text", "q": " Kan Tablosu Açıklama " },
   { "type": "text", "q": " Hasta Planı" },
@@ -2058,8 +2130,7 @@
     "inline": true,
     "blockSize": 4
   },
-  
-  
+
   { "type": "text", "q": " Açıklama" },
   { "type": "text", "q": " Tanı" },
   {
@@ -2068,12 +2139,10 @@
     "options": ["Evet", "Hayır"],
     "inline": true
   },
-  
-  
+
   { "type": "text", "q": " Cerrahi Adayı Açıklama" },
 
-
-{
+  {
     "type": "title",
     "q": " VII. ÖZET BİLGİLER ",
     "size": 3,
@@ -2081,12 +2150,33 @@
     "underlined": true
   },
   { "type": "text", "q": " Tanı ", "inline": true },
-{ "type": "radiobutton", "q": " Sendrom Tanısı ", "options": ["Var", "Yok"], "inline": true,
-    "blockSize": 4 },
-                                                              
-                                                              
-              { "type": "text", "q": " Sendrom Tanısı Açıklama ", "inline": true, "blockSize": 8 },                                                 
-  { "type": "checkbox", "q": " Etiyoloji ", "options": ["Bilinmeyen", "Genetik", "İmmün","Yapısal","Enfeksiyon", "Metabolik"], "inline": true },
+  {
+    "type": "radiobutton",
+    "q": " Sendrom Tanısı ",
+    "options": ["Var", "Yok"],
+    "inline": true,
+    "blockSize": 4
+  },
+
+  {
+    "type": "text",
+    "q": " Sendrom Tanısı Açıklama ",
+    "inline": true,
+    "blockSize": 8
+  },
+  {
+    "type": "checkbox",
+    "q": " Etiyoloji ",
+    "options": [
+      "Bilinmeyen",
+      "Genetik",
+      "İmmün",
+      "Yapısal",
+      "Enfeksiyon",
+      "Metabolik"
+    ],
+    "inline": true
+  },
   {
     "type": "checkbox",
     "q": "Nöbet Tipleri",
@@ -2102,7 +2192,7 @@
     ],
     "inline": true
   },
-  
+
   {
     "type": "radiobutton",
     "q": " Intellectual Disability",
@@ -2110,18 +2200,14 @@
     "inline": true,
     "blockSize": 6
   },
-  
-  
-   {
+
+  {
     "type": "radiobutton",
     "q": " Down Sendromu",
     "options": ["Var", "yok"],
     "inline": true,
     "blockSize": 6
   },
-  
-  
-  
+
   { "type": "text", "q": " İzlemede Özellik Ekstra" }
-  
-  ]
+]
