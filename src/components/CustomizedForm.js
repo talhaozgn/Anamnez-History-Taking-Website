@@ -96,9 +96,9 @@ export default function CustomizedForm() {
 
       effective[name].forEach((index) => {
         const question = questions[index];
-        if (question.type == "formula")
+        if (question.type === "formula")
           newInp[question.q] = calculateFormula(question.formula, newInp);
-        else if (question.type == "reflection") {
+        else if (question.type === "reflection") {
           newInp[question.q] = calculateReflection(question.formula, newInp);
         }
       });
@@ -181,7 +181,7 @@ export default function CustomizedForm() {
       );
     } else if (q.type === "formula") {
       return <FormulaInput k={q.q} v={inp[q.q]} inline={q.inline} />;
-    } else if (q.type == "reflection") {
+    } else if (q.type === "reflection") {
       return <ReflectionInput value={inp[q.q]} />;
     } else {
       console.log("unknown question type");
