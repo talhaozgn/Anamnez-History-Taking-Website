@@ -1905,6 +1905,111 @@
     "inline": true
   },
   {
+    "type": "title",
+    "q": "İlaç Özet",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  {
+    "type": "reflection",
+    "q": "ilaç 1 - reflect",
+    "formula": [" İlaç 1 ", " İlaç 1 Kullanım Miktarı"]
+  },
+  {
+    "type": "reflection",
+    "q": "ilaç 2 - reflect",
+    "formula": [" İlaç 2 ", " İlaç 2 Kullanım Miktarı"]
+  },
+  {
+    "type": "reflection",
+    "q": "ilaç 3 - reflect",
+    "formula": [" İlaç 3 ", " İlaç 3 Kullanım Miktarı"]
+  },
+  {
+    "type": "reflection",
+    "q": "ilaç 4 - reflect",
+    "formula": [" İlaç 4 ", " İlaç 4 Kullanım Miktarı"]
+  },
+  {
+    "type": "reflection",
+    "q": "ilaç 5 - reflect",
+    "formula": [" İlaç 5 ", " İlaç 5 Kullanım Miktarı"]
+  },
+  {
+    "type": "reflection",
+    "q": "ilaç 6 - reflect",
+    "formula": [" İlaç 6 ", " İlaç 6 Kullanım Miktarı"]
+  },
+  {
+    "type": "reflection",
+    "q": "ilaç 7 - reflect",
+    "formula": [" İlaç 7 ", " İlaç 7 Kullanım Miktarı"]
+  },
+  {
+    "type": "title",
+    "q": "Önceden Kullandığı İlaç Özet",
+    "size": 6,
+    "center": true,
+    "underlined": true
+  },
+  {
+    "type": "reflection",
+    "q": "onceden ilaç 1 - reflect",
+    "formula": [
+      " Önceden Kullandığı İlaç 1 ",
+      " Önceden Kullandığı İlaç 1 Kullanım Miktarı"
+    ]
+  },
+  {
+    "type": "reflection",
+    "q": "onceden ilaç 2 - reflect",
+    "formula": [
+      " Önceden Kullandığı İlaç 2 ",
+      " Önceden Kullandığı İlaç 2 Kullanım Miktarı"
+    ]
+  },
+  {
+    "type": "reflection",
+    "q": "onceden ilaç 3 - reflect",
+    "formula": [
+      " Önceden Kullandığı İlaç 3 ",
+      " Önceden Kullandığı İlaç 3 Kullanım Miktarı"
+    ]
+  },
+  {
+    "type": "reflection",
+    "q": "onceden ilaç 4 - reflect",
+    "formula": [
+      " Önceden Kullandığı İlaç 4 ",
+      " Önceden Kullandığı İlaç 4 Kullanım Miktarı"
+    ]
+  },
+  {
+    "type": "reflection",
+    "q": "onceden ilaç 5 - reflect",
+    "formula": [
+      " Önceden Kullandığı İlaç 5 ",
+      " Önceden Kullandığı İlaç 5 Kullanım Miktarı"
+    ]
+  },
+  {
+    "type": "reflection",
+    "q": "onceden ilaç 6 - reflect",
+    "formula": [
+      " Önceden Kullandığı İlaç 6 ",
+      " Önceden Kullandığı İlaç 6 Kullanım Miktarı"
+    ]
+  },
+  {
+    "type": "reflection",
+    "q": "onceden ilaç 7 - reflect",
+    "formula": [
+      " Önceden Kullandığı İlaç 7 ",
+      " Önceden Kullandığı İlaç 7 Kullanım Miktarı"
+    ]
+  },
+  {
     "type": "checkbox",
     "q": "Diğer Tedaviler",
     "options": [

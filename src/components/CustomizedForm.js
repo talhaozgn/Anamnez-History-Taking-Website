@@ -5,6 +5,7 @@ import TextInput from "./inputcomponents/TextInput.js";
 import RadioButtonInput from "./inputcomponents/RadioButtonInput.js";
 import CheckboxInput from "./inputcomponents/CheckboxInput.js";
 import TitleInput from "./inputcomponents/TitleInput";
+import ReflectionInput from "./inputcomponents/ReflectionInput";
 import ReactExport from "react-export-excel";
 import { Document, Packer, Paragraph, TextRun, AlignmentType } from "docx";
 import { saveAs } from "file-saver";
@@ -26,7 +27,10 @@ export default function CustomizedForm() {
         keys[questions[i].q] = new Array(questions[i].options.length).fill(
           false
         );
-      else if (questions[i].type === "formula") {
+      else if (
+        questions[i].type === "formula" ||
+        questions[i].type === "reflection"
+      ) {
         questions[i].formula.forEach((cur) => {
           if (cur !== "+" && cur !== "-" && cur !== "*" && cur !== "/") {
             if (!(cur in tmpEffective)) tmpEffective[cur] = [];
@@ -78,6 +82,12 @@ export default function CustomizedForm() {
     return res.toFixed(1);
   };
 
+  const calculateReflection = (formula, newInp) => {
+    const values = formula.map((index) => newInp[index]);
+
+    return values.join(", ");
+  };
+
   const handleChange = (e) => {
     const { name, value } = e.currentTarget;
 
@@ -85,10 +95,12 @@ export default function CustomizedForm() {
       let newInp = { ...inp, [name]: value };
 
       effective[name].forEach((index) => {
-        newInp[questions[index].q] = calculateFormula(
-          questions[index].formula,
-          newInp
-        );
+        const question = questions[index];
+        if (question.type == "formula")
+          newInp[question.q] = calculateFormula(question.formula, newInp);
+        else if (question.type == "reflection") {
+          newInp[question.q] = calculateReflection(question.formula, newInp);
+        }
       });
 
       setInp(newInp);
@@ -169,12 +181,16 @@ export default function CustomizedForm() {
       );
     } else if (q.type === "formula") {
       return <FormulaInput k={q.q} v={inp[q.q]} inline={q.inline} />;
+    } else if (q.type == "reflection") {
+      return <ReflectionInput value={inp[q.q]} />;
     } else {
       console.log("unknown question type");
     }
   };
 
   const renderQuestion = (q, index) => {
+    if (q.type === "reflection" && !inp[q.q]) return null;
+
     let colSize = "col-12";
     if (q["blockSize"]) colSize = "col-" + q["blockSize"];
 
@@ -229,7 +245,7 @@ export default function CustomizedForm() {
       >
         <ExcelSheet data={[getDataSet()]} name="excel-export">
           {questions
-            .filter((x) => x.type !== "title") // TODO ignore type == reflect
+            .filter((x) => x.type !== "title" && x.type !== "reflection")
             .map((x) => (
               <ExcelColumn label={x.q} value={x.q} />
             ))}
@@ -246,8 +262,15 @@ export default function CustomizedForm() {
     const dataSet = getDataSet();
     let docText = [];
 
+    const pushEmptyLine = () => {
+      docText.push(
+        new Paragraph({
+          children: [new TextRun({ text: "", size: 24 })],
+        })
+      );
+    };
+
     questions.forEach((question) => {
-      // TODO: if type == reflect -> continue
       if (question.type === "title") {
         let textSpecs = {
           text: question.q,
@@ -266,6 +289,18 @@ export default function CustomizedForm() {
             children: [new TextRun(textSpecs)],
           })
         );
+
+        pushEmptyLine();
+      } else if (question.type === "reflection") {
+        if (dataSet[question.q]) {
+          docText.push(
+            new Paragraph({
+              children: [new TextRun({ text: dataSet[question.q], size: 24 })],
+            })
+          );
+
+          pushEmptyLine();
+        }
       } else {
         if (question.inline) {
           docText.push(
@@ -291,12 +326,9 @@ export default function CustomizedForm() {
             })
           );
         }
+
+        pushEmptyLine();
       }
-      docText.push(
-        new Paragraph({
-          children: [new TextRun({ text: "", size: 24 })],
-        })
-      );
     });
 
     const doc = new Document({
