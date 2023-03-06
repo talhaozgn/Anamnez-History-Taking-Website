@@ -101,6 +101,20 @@
   },
 
   { "type": "text", "q": "Öykü " },
+  
+  {
+    "type": "text",
+    "q": "Epilepsi Başlangıç Yaşı",
+    "inline": true,
+    "blockSize": 6
+  },
+
+  {
+    "type": "text",
+    "q": "Epilepsi Başlangıç Yılı",
+    "inline": true,
+    "blockSize": 6
+  },
 
   {
     "type": "title",
