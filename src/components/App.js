@@ -1,13 +1,14 @@
 import CustomizedForm from "./CustomizedForm";
+import "./App.css"
 
 export default function App() {
   return (
-    <div className="bg-light">
-      <div className="container p-4">
-        <div className="bg-white p-3">
+    
+  
+        <div className="bg-white p-3 box">
           <CustomizedForm />
         </div>
-      </div>
-    </div>
+      
+   
   );
 }

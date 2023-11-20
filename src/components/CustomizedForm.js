@@ -10,6 +10,8 @@ import ReactExport from "react-export-excel";
 import { Document, Packer, Paragraph, TextRun, AlignmentType } from "docx";
 import { saveAs } from "file-saver";
 import FormulaInput from "./inputcomponents/FormulaInput";
+import koc from "./koc2.png"
+import amerikan from "./amerikan.png"
 
 export default function CustomizedForm() {
   const [inp, setInp] = useState({}); // quesiton.q - value
@@ -352,6 +354,11 @@ export default function CustomizedForm() {
 
   return (
     <React.Fragment>
+      <div>
+      <img src={koc} alt="" width="315" height="67" style={{  top: 34, left: 68 }}/>
+      <img src={amerikan} alt="" width="450" height="170" style={{ position: 'absolute', top: -35, right: -75 }}/>
+      </div>
+     <p></p>
       <div>{questions.map((x, index) => renderQuestion(x, index))}</div>
       <button className="btn btn-primary w-100 mt-3" onClick={exportAll}>
         Export

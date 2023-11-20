@@ -665,14 +665,14 @@
     "q": " Madde kullanımı ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 2
+    "blockSize": 3
   },
 
   {
     "type": "text",
     "q": "Madde kullanım yılı",
     "inline": true,
-    "blockSize": 4
+    "blockSize": 3
   },
 
   {
@@ -680,14 +680,14 @@
     "q": " Nargile",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 2
+    "blockSize": 3
   },
 
   {
     "type": "text",
     "q": "Nargile kullanım yılı",
     "inline": true,
-    "blockSize": 4
+    "blockSize": 3
   },
 
   {
@@ -695,7 +695,7 @@
     "q": " Askerlik",
     "options": ["Yaptı", "Yapmadı"],
     "inline": true,
-    "blockSize": 2,
+    "blockSize": 3,
     "inline": true
   },
 
@@ -705,7 +705,7 @@
     "type": "text",
     "q": " Sosyal Durum Açıklama",
     "inline": true,
-    "blockSize": 7
+    "blockSize": 6
   },
 
   {
@@ -786,7 +786,7 @@
     "q": " Kafa Tramvası ",
     "options": ["Var", "Yok"],
     "inline": true,
-    "blockSize": 2
+    "blockSize": 3
   },
 
   {
@@ -800,7 +800,7 @@
     "type": "text",
     "q": " Kafa Tramvası Açıklama",
     "inline": true,
-    "blockSize": 7
+    "blockSize": 6
   },
 
   {
