@@ -1,5 +1,5 @@
 
-# Medical History Management Website
+# Anamnez Website
 ## Overview
 This website is a specialized tool for medical professionals, particularly designed to facilitate the process of taking medical histories from patients. It emphasizes privacy and data security by not storing any patient data, thereby ensuring compliance with data protection regulations.
 
