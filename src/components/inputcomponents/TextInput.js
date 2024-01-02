@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function TextInput({ k, v, handleChange, inline }) {
-if (k=="Öykü "){
+if (k==="Öykü "){
   v = v || " Korku aurası, Koku aurası, Dejavu, Jamais, vu aurası";
  }
   return (
